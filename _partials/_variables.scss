@@ -1,0 +1,29 @@
+// https://maxwellito.github.io/vivus-instant/
+// font-family: 'Arvo', serif;  400
+// font-family: 'Lato', sans-serif;  300, 700
+$font-titles: 'Arvo', serif;
+$font-default: 'Lato', sans-serif;
+$primary: #103957;
+$secondary: #0088FF;
+$dark: #002037;
+$link-color: $primary;
+
+$grid-gutter-width: 30px;
+
+$preto: #1A1A1A;
+$branco: #ffffff;
+
+// Customizando o modal
+$modal-backdrop-bg: $primary;
+$modal-backdrop-opacity: 1;
+
+//Custom hamburger icon
+$hamburger-layer-width         : 30px;
+$hamburger-layer-height        : 3px;
+$hamburger-layer-spacing       : 6px;
+$hamburger-layer-color         : $branco;
+$hamburger-layer-border-radius : 0;
+$hamburger-hover-opacity       : 1;
+$hamburger-types: (
+  slider,
+);
