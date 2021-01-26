@@ -1,4 +1,8 @@
 // padrões iniciais
+html{
+  font-family: $font-default;
+  font-size: 10px;  
+}
 body{
   font-family: $font-default;
   font-size: 10px;
@@ -21,8 +25,8 @@ b {
   font-weight: 700;
 }
 p {
-  font-size: 20px;
-  line-height: 40px;
+  font-size: 2rem;
+  line-height: 4rem;
   letter-spacing: 0;
   margin-bottom: 30px;
 }
@@ -79,6 +83,10 @@ p {
   outline: none;
   box-shadow: none;
   text-decoration: none;
+}
+
+.gap-padrao{
+  padding: 100px 80px;
 }
 
 //Menu Principal
@@ -322,7 +330,7 @@ p {
   p{
     font-style: normal;
     font-weight: normal;
-    font-size: 2.3em;
+    font-size: 1.8rem;
     line-height: 140.8%;    
   }
 }
@@ -367,7 +375,7 @@ p {
   p{
     font-style: normal;
     font-weight: normal;
-    font-size: 2.3em;
+    font-size: 1.8rem;
     line-height: 140.8%;
     color: #FFFFFF;   
   }
@@ -380,5 +388,166 @@ p {
     background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 97.37%);
     transform: matrix(1, 0, 0, -1, 0, 0);
     z-index: 1;  
+  }
+}
+
+// Swipper slider de clientes
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  //margin-left: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  left: 0;
+  right: auto;
+  background: #fff;
+  padding: 0;
+  height: 165px;
+  top: 0;
+  width: 50px;
+}
+
+// Footer
+footer{
+  position: relative;
+  background-color: #103957;
+  i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 78.95%);    
+  }
+  .divisor{
+    margin-top: 74px;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+  }
+  .navbar-footer{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    li{
+      margin-right: 20px;
+      a{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+      }
+    }
+    li:last-child{
+      margin-right: 0;
+    }
+  }
+  .bloco-contato{
+    li{
+      a{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.4rem;
+        line-height: 132%;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+      }
+    }
+    @mixin ico-bloco-contato{
+      background-repeat: no-repeat;
+      padding-left: 28px;
+      margin-bottom: 17px;
+    }
+    .ico-tel{
+      background-image: url('../images/icone_telefone.svg');
+      @include ico-bloco-contato;
+    }
+    .ico-mail{
+      background-image: url('../images/icone_email.svg');
+      @include ico-bloco-contato;
+    }
+    .ico-pin{
+      background-image: url('../images/icone_pin.svg');
+      @include ico-bloco-contato;
+    }        
+  }
+  .bloco-rsociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 25%;
+    ul{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 0;
+      li{
+        margin-right: 28px;
+        &:hover{
+          opacity: 0.6;
+          transition: all .2s ease-in-out;
+        }
+      }      
+    }
+    .ico-zap{
+      background-color: #FFFFFF;
+      width: 210px;
+      height: 75px;
+      // background-image: url('../images/icone-whatsapp.svg');
+      // background-repeat: no-repeat;
+      // background-position: 18px 11px;
+      border-radius: 18px 0 0 18px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 10px;
+      line-height: 12px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #103957; 
+      // border-top: 2px solid #103957;
+      // border-left: 2px solid #103957;
+      // border-bottom: 2px solid #103957;
+      // border-right: none;
+      padding-left: 20px;
+      svg{
+        margin-right: 20px;
+      }
+      &:hover{
+        text-decoration: none;
+        color: #fff;
+        background-color:#000;
+        transition: all .3s ease-in-out;
+        // border: 2px solid #fff;
+        // border-top: 2px solid #fff;
+        // border-left: 2px solid #fff;
+        // border-bottom: 2px solid #fff;
+        // border-right: none;       
+      }
+      &:hover svg path{
+        fill: #fff;
+         transition: .3s ease;
+       } 
+    }
   }
 }
