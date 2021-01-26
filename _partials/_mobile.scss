@@ -220,6 +220,43 @@ p {
   
 }
 
+
+// Padroes dos boxes
+.box-inverse{
+  color: #fff;
+  span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6em;
+    line-height: 140.8%;
+    color: #999999;
+    margin-bottom: 1.7em;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 69px;
+      height: 3px;
+      background: #999999;
+    }  
+  }
+  h1{
+    font-family: $font-titles;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 62px;
+    line-height: 62px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-bottom: 30px;    
+  }
+}
+
+
 //Topo Home
 .topo-home {
   @extend .d-flex;
@@ -552,4 +589,52 @@ footer{
        } 
     }
   }
+}
+// Sobre
+.topo-sobre{
+  background-color: #002037;
+  position: relative;
+  height: 100vh;
+  background-color: $primary;
+  align-items: flex-start;
+  i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 563px;
+    display: block;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 48.13%);
+    z-index: 1;
+  }
+  .filter-bottom{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    display: block;    
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 97.37%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    z-index: 1;
+  }
+  .row{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    z-index: 5;
+  }
+  .graf-topo{
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 5;
+    img{
+      width: 70%;
+    }
+  }   
 }
