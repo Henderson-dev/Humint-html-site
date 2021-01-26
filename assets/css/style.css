@@ -11121,7 +11121,7 @@ p {
 }
 
 .gap-padrao {
-  padding: 100px 80px;
+  padding: 60px 30px;
 }
 
 .main-menu {
@@ -11131,7 +11131,7 @@ p {
   transition: all 0.2s ease-in-out;
   position: absolute;
   background-color: transparent;
-  padding: 10px 60px 0 30px;
+  padding: 10px 10px 0 30px;
 }
 
 .main-menu .navbar-brand {
@@ -11506,7 +11506,8 @@ footer i {
 }
 
 footer .divisor {
-  margin-top: 74px;
+  margin-top: 30px;
+  margin-bottom: 200px;
 }
 
 footer ul {
@@ -11519,20 +11520,22 @@ footer .navbar-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 70px;
 }
 
 footer .navbar-footer li {
-  margin-right: 20px;
+  margin-right: 0;
+  margin-bottom: 30px;
 }
 
 footer .navbar-footer li a {
@@ -11583,10 +11586,10 @@ footer .bloco-rsociais {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -11595,7 +11598,10 @@ footer .bloco-rsociais {
           align-items: center;
   position: absolute;
   right: 0;
-  bottom: 25%;
+  bottom: 60px;
+  width: 100%;
+  margin-bottom: 0;
+  min-height: 150px;
 }
 
 footer .bloco-rsociais ul {
@@ -11609,7 +11615,9 @@ footer .bloco-rsociais ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 0;
+  margin-bottom: 40px;
+  position: absolute;
+  top: 0;
 }
 
 footer .bloco-rsociais ul li {
@@ -11648,6 +11656,8 @@ footer .bloco-rsociais .ico-zap {
   text-transform: uppercase;
   color: #103957;
   padding-left: 20px;
+  position: absolute;
+  right: 0;
 }
 
 footer .bloco-rsociais .ico-zap svg {
@@ -11673,11 +11683,76 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 Meida Queries  576px
 =====================================================
 */
+@media (min-width: 576px) {
+  footer .navbar-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 /*
 =====================================================
 Meida Queries  768px
 =====================================================
 */
+@media (min-width: 768px) {
+  .gap-padrao {
+    padding: 100px 80px;
+  }
+  footer .divisor {
+    margin-top: 74px;
+    margin-bottom: 0;
+  }
+  footer .navbar-footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 0;
+  }
+  footer .navbar-footer li {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+  footer .bloco-rsociais {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 25%;
+    width: initial;
+  }
+  footer .bloco-rsociais ul {
+    margin-bottom: 0;
+    position: initial;
+  }
+  footer .bloco-rsociais .ico-zap {
+    position: initial;
+  }
+}
+
 @media (max-height: 768px) {
   .topo-home {
     height: 140vh;
@@ -11690,6 +11765,9 @@ Meida Queries  991px
 =====================================================
 */
 @media (min-width: 991px) {
+  .main-menu {
+    padding: 10px 60px 0 30px;
+  }
   .main-menu .navbar-brand img {
     width: 184.02px;
     height: 67.02px;

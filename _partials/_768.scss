@@ -4,6 +4,45 @@ Meida Queries  768px
 =====================================================
 */
 @media (min-width: 768px) {
+    .gap-padrao{
+        padding: 100px 80px;
+    }
+
+    // Footer
+    footer{
+        .divisor{
+            margin-top: 74px;
+            margin-bottom: 0;
+        }        
+        .navbar-footer{
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            margin-top: 0;
+            li{
+                margin-right: 20px;
+                margin-bottom: 0;
+            }            
+        }
+        .bloco-rsociais{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            position: absolute;
+            right: 0;
+            bottom: 25%;
+            width: initial;
+            ul{
+                margin-bottom: 0;
+                position: initial;       
+            }
+            .ico-zap{
+                position: initial;            
+            }            
+        }
+         
+    }
 
 }
 // 768px

@@ -5,6 +5,12 @@ Meida Queries  576px
 */
 
 @media (min-width: 576px) {
-
+    // Footer
+    footer{       
+        .navbar-footer{
+            flex-direction: column;
+            align-items: center;         
+        }
+    }
 }
 // 576px
