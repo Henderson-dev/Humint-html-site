@@ -365,7 +365,7 @@ p {
   }
   p{
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 1.8rem;
     line-height: 140.8%;    
   }
@@ -590,10 +590,9 @@ footer{
     }
   }
 }
-// Sobre
-.topo-sobre{
+@mixin base-topo{
   position: relative;
-  height: 100vh;
+  display: flex;
   align-items: flex-start;
   background-color: #002037;
   i{
@@ -604,17 +603,6 @@ footer{
     height: 563px;
     display: block;
     background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 48.13%);
-    z-index: 1;
-  }
-  .filter-bottom{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    display: block;    
-    background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 97.37%);
-    transform: matrix(1, 0, 0, -1, 0, 0);
     z-index: 1;
   }
   .row{
@@ -635,11 +623,29 @@ footer{
     img{
       width: 70%;
     }
-  }   
+  }  
+}
+// Sobre
+.topo-sobre{
+  height: 100vh;
+  @include base-topo;
+
+  .filter-bottom{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    display: block;    
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 97.37%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    z-index: 1;
+  }
+   
 }
 // banner
 .banner{
-  min-height: 270px;
+  min-height: 30vh;
   width: 100%;
   position: relative;
   background-position: center;
@@ -670,17 +676,25 @@ footer{
   }
   p{
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 2rem;
     line-height: 140.8%;
     color: #000000;    
   }
 }
+//separador
+.separador{
+  border-top: 3px solid #103957;
+}
+@mixin iconecard{
+  width: 70px;
+  margin-bottom: 16px;
+  height: 70px;
+}
 // Card box
 .card-box{
   img{
-    width: 20%;
-    margin-bottom: 15px;
+    @include iconecard;
   }
   h3{
     font-family: $font-titles;
@@ -694,12 +708,33 @@ footer{
   }
   p{
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 1.8rem;
     line-height: 140.8%;
     color: #000000;    
   }
 }
+// card soluções
+.card-solucoes{
+  img{
+    margin-top: 60px;
+    @include iconecard;
+  }
+  h3{
+    font-family: $font-titles;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 5.5rem;
+    letter-spacing: -0.02em;
+    color: #103957;
+    margin-bottom: 16px;   
+  }
+  p{
+    width: 80%;
+  }
+}
+// bloco azul com foto no topo
 .bloco-foto{
   color:#fff;
   position: relative;
@@ -771,4 +806,9 @@ footer{
       width: 85%;
     }
   }
+}
+// topo internas
+.topo-internas{
+  height: 70vh;
+  @include base-topo;
 }

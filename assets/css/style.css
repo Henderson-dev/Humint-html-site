@@ -11423,7 +11423,7 @@ p {
 
 .bg-white p {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1.8rem;
   line-height: 140.8%;
 }
@@ -11715,8 +11715,11 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 }
 
 .topo-sobre {
-  position: relative;
   height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -11732,20 +11735,6 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   display: block;
   background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.13%, rgba(0, 32, 55, 0)));
   background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 48.13%);
-  z-index: 1;
-}
-
-.topo-sobre .filter-bottom {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-  display: block;
-  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(97.37%, rgba(0, 32, 55, 0)));
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 97.37%);
-  -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
-          transform: matrix(1, 0, 0, -1, 0, 0);
   z-index: 1;
 }
 
@@ -11782,8 +11771,22 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   width: 70%;
 }
 
+.topo-sobre .filter-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(97.37%, rgba(0, 32, 55, 0)));
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 97.37%);
+  -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+          transform: matrix(1, 0, 0, -1, 0, 0);
+  z-index: 1;
+}
+
 .banner {
-  min-height: 270px;
+  min-height: 30vh;
   width: 100%;
   position: relative;
   background-position: center;
@@ -11818,15 +11821,20 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 
 .conteudo p {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 2rem;
   line-height: 140.8%;
   color: #000000;
 }
 
+.separador {
+  border-top: 3px solid #103957;
+}
+
 .card-box img {
-  width: 20%;
-  margin-bottom: 15px;
+  width: 70px;
+  margin-bottom: 16px;
+  height: 70px;
 }
 
 .card-box h3 {
@@ -11842,10 +11850,32 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 
 .card-box p {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1.8rem;
   line-height: 140.8%;
   color: #000000;
+}
+
+.card-solucoes img {
+  margin-top: 60px;
+  width: 70px;
+  margin-bottom: 16px;
+  height: 70px;
+}
+
+.card-solucoes h3 {
+  font-family: "Arvo", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 5.5rem;
+  letter-spacing: -0.02em;
+  color: #103957;
+  margin-bottom: 16px;
+}
+
+.card-solucoes p {
+  width: 80%;
 }
 
 .bloco-foto {
@@ -11956,6 +11986,63 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   width: 85%;
 }
 
+.topo-internas {
+  height: 70vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #002037;
+}
+
+.topo-internas i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 563px;
+  display: block;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(48.13%, rgba(0, 32, 55, 0)));
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 48.13%);
+  z-index: 1;
+}
+
+.topo-internas .row {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 90vh;
+  z-index: 5;
+}
+
+.topo-internas .graf-topo {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  z-index: 5;
+}
+
+.topo-internas .graf-topo img {
+  width: 70%;
+}
+
 /*
 =====================================================
 Meida Queries  576px
@@ -12034,6 +12121,9 @@ Meida Queries  768px
 @media (max-height: 768px) {
   .topo-home {
     height: 140vh;
+  }
+  .topo-internas {
+    height: 100vh;
   }
 }
 
