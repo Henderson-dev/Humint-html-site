@@ -11715,13 +11715,12 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 }
 
 .topo-sobre {
-  background-color: #002037;
   position: relative;
   height: 100vh;
-  background-color: #103957;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  background-color: #002037;
 }
 
 .topo-sobre i {
@@ -11888,6 +11887,20 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   width: 55%;
 }
 
+.bloco-foto .img-topo-sl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: -340px;
+}
+
+.bloco-foto .img-topo-sl img {
+  width: 65%;
+}
+
 .bloco-foto .img-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11906,6 +11919,10 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 
 .bloco-foto .btn {
   margin-top: 20px;
+}
+
+.bloco-foto .card-box h3 {
+  color: #fff;
 }
 
 .container-clientes {

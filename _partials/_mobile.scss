@@ -592,11 +592,10 @@ footer{
 }
 // Sobre
 .topo-sobre{
-  background-color: #002037;
   position: relative;
   height: 100vh;
-  background-color: $primary;
   align-items: flex-start;
+  background-color: #002037;
   i{
     position: absolute;
     left: 0;
@@ -728,6 +727,14 @@ footer{
       width: 55%;
     }
   }
+  .img-topo-sl{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -340px;
+    img{
+      width: 65%;
+    }
+  }  
   .img-bottom{
     display: flex;
     justify-content: flex-end;    
@@ -740,6 +747,12 @@ footer{
   }
   .btn{
     margin-top: 20px;
+  }
+  .card-box{
+    h3{
+      color: #fff;
+    }
+
   }
 }
 // area clientes
