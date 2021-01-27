@@ -11783,6 +11783,162 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   width: 70%;
 }
 
+.banner {
+  min-height: 270px;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #002037;
+  mix-blend-mode: color;
+}
+
+.conteudo {
+  padding: 140px 80px;
+}
+
+.conteudo h2 {
+  font-family: "Arvo", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5rem;
+  line-height: 6rem;
+  letter-spacing: -0.02em;
+  color: #103957;
+  margin-bottom: 50px;
+}
+
+.conteudo p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 140.8%;
+  color: #000000;
+}
+
+.card-box img {
+  width: 20%;
+  margin-bottom: 15px;
+}
+
+.card-box h3 {
+  font-family: "Arvo", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.card-box p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 140.8%;
+  color: #000000;
+}
+
+.bloco-foto {
+  color: #fff;
+  position: relative;
+  background-color: #103957;
+}
+
+.bloco-foto i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(78.95%, rgba(0, 32, 55, 0)));
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 78.95%);
+}
+
+.bloco-foto .row {
+  position: relative;
+  z-index: 5;
+}
+
+.bloco-foto .row h2, .bloco-foto .row p {
+  color: #fff;
+}
+
+.bloco-foto .img-topo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: -275px;
+}
+
+.bloco-foto .img-topo img {
+  width: 55%;
+}
+
+.bloco-foto .img-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.bloco-foto .img-bottom img {
+  width: 75%;
+}
+
+.bloco-foto .btn {
+  margin-top: 20px;
+}
+
+.container-clientes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-clientes .card-cliente {
+  width: 16%;
+  margin: 0 20px 20px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-height: 120px;
+}
+
+.container-clientes .card-cliente img {
+  width: 85%;
+}
+
 /*
 =====================================================
 Meida Queries  576px

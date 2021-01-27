@@ -638,3 +638,124 @@ footer{
     }
   }   
 }
+// banner
+.banner{
+  min-height: 270px;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #002037;
+    mix-blend-mode: color;
+  }
+}
+// conteudo
+.conteudo{
+  padding: 140px 80px;
+  h2{
+    font-family: $font-titles;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5rem;
+    line-height: 6rem;
+    letter-spacing: -0.02em;
+    color: #103957;    
+    margin-bottom: 50px;
+  }
+  p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 140.8%;
+    color: #000000;    
+  }
+}
+// Card box
+.card-box{
+  img{
+    width: 20%;
+    margin-bottom: 15px;
+  }
+  h3{
+    font-family: $font-titles;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-bottom: 16px;  
+  }
+  p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 140.8%;
+    color: #000000;    
+  }
+}
+.bloco-foto{
+  color:#fff;
+  position: relative;
+  background-color: #103957;
+  i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 78.95%);    
+  }
+  .row{
+    position: relative;
+    z-index: 5;
+    h2, p{
+      color: #fff;
+    }
+  }
+  .img-topo{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -275px;
+    img{
+      width: 55%;
+    }
+  }
+  .img-bottom{
+    display: flex;
+    justify-content: flex-end;    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    img{
+      width: 75%;
+    }
+  }
+  .btn{
+    margin-top: 20px;
+  }
+}
+// area clientes
+.container-clientes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .card-cliente{
+    width: 16%;
+    margin: 0 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 120px;
+    img{
+      width: 85%;
+    }
+  }
+}
