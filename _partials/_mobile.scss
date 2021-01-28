@@ -656,6 +656,7 @@ footer{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top;
   i{
     position: absolute;
     top: 0;
@@ -860,4 +861,91 @@ footer{
 .topo-internas{
   height: 70vh;
   @include base-topo;
+}
+// formularios
+.form-contact{
+  display: flex;
+  flex-direction: column;
+  h2{
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    padding-right: 60px;
+    margin-bottom: 35px;
+  }
+  p{
+    padding-right: 60px;
+  }
+  a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 6px;
+    display: block;  
+  }
+  label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 140.8%;
+    color: #002037;
+    padding-left: 2px;   
+  }
+  input[type="text"], input[type="email"], input[type="tel"], input[type="file"] {
+    margin-bottom: 26px;
+    background: transparent;
+    border: 2px solid #002037;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.115em;
+    color: #000;
+    padding: 10px 16px 12px;
+    width: 100%;
+  }
+  textarea {
+    margin-bottom: 17px;
+    background: transparent;
+    border: 2px solid #002037;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.115em;
+    color: #000;
+    padding: 10px 16px 12px;
+    width: 100%;
+  }
+  .block-capcha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  input[type="submit"] {
+    background: #002037;
+    border: none;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 140.8%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 14px 35px;
+    text-align: center;
+    width: max-content;
+    height: max-content;
+    transition: all .3s ease-in-out;
+    &:hover{
+      background-color: #0088FF;
+    }
+  }  
 }
