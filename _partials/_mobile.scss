@@ -447,6 +447,53 @@ p {
   background-repeat: no-repeat;
   background-position: top center;
   min-height: 440px;
+  .titulo-destaque{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 140.8%;
+    text-transform: uppercase;
+    color: #999999;
+    margin-bottom: 1.7em; 
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    &::after{
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 69px;
+      height: 3px;     
+      background: #999999;      
+    }
+  }
+  h2{
+    font-family: $font-titles;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.5em;
+    line-height: 1em;
+    letter-spacing: -0.02em;
+    color: #103957;
+    margin-bottom: 17px;  
+  }
+  p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 140.8%;    
+  }
+  .swiper-container {
+    height: 130%;
+    .swiper-slide {
+      margin-bottom: 30px;
+    }
+    .swiper-pagination-bullet {
+      width: 14px;
+      height: 14px;
+    }    
+  }  
 }
 
 // Swipper slider de clientes
