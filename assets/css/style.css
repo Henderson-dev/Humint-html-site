@@ -11496,6 +11496,13 @@ p {
   z-index: 1;
 }
 
+.box-clientes {
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 440px;
+}
+
 .swiper-container {
   width: 100%;
   height: 100%;
