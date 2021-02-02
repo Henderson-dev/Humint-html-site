@@ -316,7 +316,7 @@ p {
 .solucoes{
   position: relative;
   overflow: hidden;
-  min-height: 504px;
+  // min-height: 504px;
   .container-grafismo{
     position: absolute;
     top: 0;
@@ -337,6 +337,10 @@ p {
 }
 .bg-white{
   background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-height: 440px;
   span{
     font-style: normal;
     font-weight: bold;
@@ -378,6 +382,10 @@ p {
 .bg-inverse{
   background-color: $primary;
   position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-height: 440px;  
   .container-fluid{
     position: relative;
     z-index: 5;

@@ -11359,7 +11359,6 @@ p {
 .solucoes {
   position: relative;
   overflow: hidden;
-  min-height: 504px;
 }
 
 .solucoes .container-grafismo {
@@ -11385,6 +11384,10 @@ p {
 
 .bg-white {
   background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-height: 440px;
 }
 
 .bg-white span {
@@ -11431,6 +11434,10 @@ p {
 .bg-inverse {
   background-color: #103957;
   position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-height: 440px;
 }
 
 .bg-inverse .container-fluid, .bg-inverse .container-sm, .bg-inverse .container-md, .bg-inverse .container-lg, .bg-inverse .container-xl {
