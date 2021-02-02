@@ -11342,18 +11342,13 @@ p {
 
 .topo-home .graf-topo {
   position: absolute;
-  right: 0;
+  left: 0;
   bottom: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.topo-home .graf-topo img {
-  width: 80%;
+  width: 100%;
+  min-height: 670px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .solucoes {
@@ -11387,13 +11382,13 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-height: 440px;
+  min-height: 440px;
 }
 
 .bg-white span {
   font-style: normal;
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 1.3em;
   line-height: 140.8%;
   text-transform: uppercase;
   color: #999999;
@@ -11417,7 +11412,7 @@ p {
   font-family: "Arvo", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 6.0em;
+  font-size: 4.5em;
   line-height: 1em;
   letter-spacing: -0.02em;
   color: #103957;
@@ -11437,7 +11432,8 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-height: 440px;
+  min-height: 440px;
+  z-index: 5;
 }
 
 .bg-inverse .container-fluid, .bg-inverse .container-sm, .bg-inverse .container-md, .bg-inverse .container-lg, .bg-inverse .container-xl {
@@ -11448,7 +11444,7 @@ p {
 .bg-inverse span {
   font-style: normal;
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 1.3em;
   line-height: 140.8%;
   text-transform: uppercase;
   color: #999999;
@@ -11472,7 +11468,7 @@ p {
   font-family: "Arvo", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 6.0em;
+  font-size: 4.5em;
   line-height: 1em;
   letter-spacing: -0.02em;
   color: #ffffff;
@@ -12248,7 +12244,7 @@ Meida Queries  768px
 */
 @media (min-width: 768px) {
   .gap-padrao {
-    padding: 100px 80px;
+    padding: 80px 80px;
   }
   footer .divisor {
     margin-top: 74px;

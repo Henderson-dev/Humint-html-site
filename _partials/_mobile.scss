@@ -304,13 +304,13 @@ p {
   }
   .graf-topo{
     position: absolute;
-    right: 0;
+    left: 0;
     bottom: 0;
-    display: flex;
-    justify-content: flex-end;
-    img{
-      width: 80%;
-    }
+    width: 100%;
+    min-height: 670px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
   }
 }
 .solucoes{
@@ -340,11 +340,11 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-height: 440px;
+  min-height: 440px;
   span{
     font-style: normal;
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 1.3em;
     line-height: 140.8%;
     text-transform: uppercase;
     color: #999999;
@@ -366,7 +366,7 @@ p {
     font-family: $font-titles;
     font-style: normal;
     font-weight: normal;
-    font-size: 6.0em;
+    font-size: 4.5em;
     line-height: 1em;
     letter-spacing: -0.02em;
     color: #103957;
@@ -385,7 +385,8 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-height: 440px;  
+  min-height: 440px;
+  z-index: 5; 
   .container-fluid{
     position: relative;
     z-index: 5;
@@ -393,7 +394,7 @@ p {
   span{
     font-style: normal;
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 1.3em;
     line-height: 140.8%;
     text-transform: uppercase;
     color: #999999;
@@ -415,7 +416,7 @@ p {
     font-family: $font-titles;
     font-style: normal;
     font-weight: normal;
-    font-size: 6.0em;
+    font-size: 4.5em;
     line-height: 1em;
     letter-spacing: -0.02em;
     color: #ffffff;
