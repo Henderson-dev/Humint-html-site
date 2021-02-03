@@ -564,6 +564,21 @@ footer{
         letter-spacing: 0.05em;
         text-transform: uppercase;
         color: #FFFFFF;
+        text-decoration: none;
+        outline: none;
+        .link_traco{
+          background-image: linear-gradient(180deg,transparent 0,currentColor 50%);
+          background-position: 0 calc(100% - 1px);
+          background-repeat: no-repeat;
+          background-size: 0 1px;
+          //will-change: background-size,color;
+          transition: background-size .5s cubic-bezier(0.4,0,0.14,1),color cubic-bezier(0.4,0,0.14,1) .25s;
+          padding: 8px 0;     
+        }
+        &:hover .link_traco{
+          background-size: 100% 1px;
+          transition-delay: 0s;
+        }
       }
     }
     li:last-child{

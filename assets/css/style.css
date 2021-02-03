@@ -11653,6 +11653,25 @@ footer .navbar-footer li a {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #FFFFFF;
+  text-decoration: none;
+  outline: none;
+}
+
+footer .navbar-footer li a .link_traco {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, transparent), color-stop(50%, currentColor));
+  background-image: linear-gradient(180deg, transparent 0, currentColor 50%);
+  background-position: 0 calc(100% - 1px);
+  background-repeat: no-repeat;
+  background-size: 0 1px;
+  -webkit-transition: background-size 0.5s cubic-bezier(0.4, 0, 0.14, 1), color cubic-bezier(0.4, 0, 0.14, 1) 0.25s;
+  transition: background-size 0.5s cubic-bezier(0.4, 0, 0.14, 1), color cubic-bezier(0.4, 0, 0.14, 1) 0.25s;
+  padding: 8px 0;
+}
+
+footer .navbar-footer li a:hover .link_traco {
+  background-size: 100% 1px;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
 }
 
 footer .navbar-footer li:last-child {
