@@ -11316,8 +11316,8 @@ p {
 
 .topo-home .container-topo {
   position: relative;
-  margin: 210px 0 0 120px;
-  width: 52%;
+  margin: 115px 40px 0 40px;
+  width: 100%;
   z-index: 5;
 }
 
@@ -11325,8 +11325,8 @@ p {
   font-family: "Arvo", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 62px;
-  line-height: 62px;
+  font-size: 25px;
+  line-height: 32px;
   letter-spacing: -0.02em;
   color: #FFFFFF;
   margin-bottom: 30px;
@@ -11334,8 +11334,8 @@ p {
 
 .topo-home .container-topo p {
   font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 17px;
   line-height: 140.8%;
   color: #FFFFFF;
 }
@@ -11345,7 +11345,7 @@ p {
   left: 0;
   bottom: 0;
   width: 100%;
-  min-height: 670px;
+  min-height: 330px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -11427,7 +11427,7 @@ p {
 }
 
 .bg-inverse {
-  background-color: #103957;
+  background-color: #002037;
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
@@ -11486,14 +11486,20 @@ p {
 .bg-inverse i {
   position: absolute;
   width: 100%;
-  height: 496px;
   left: 0px;
   bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 440px;
+  z-index: 1;
+}
+
+.bg-inverse .filtro--azul {
   background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(97.37%, rgba(0, 32, 55, 0)));
   background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 97.37%);
   -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
           transform: matrix(1, 0, 0, -1, 0, 0);
-  z-index: 1;
 }
 
 .box-clientes {
@@ -11501,6 +11507,7 @@ p {
   background-repeat: no-repeat;
   background-position: top center;
   min-height: 440px;
+  padding: 250px 30px 80px 30px;
 }
 
 .box-clientes .titulo-destaque {
@@ -12307,6 +12314,27 @@ Meida Queries  768px
   .gap-padrao {
     padding: 80px 80px;
   }
+  .topo-home .container-topo {
+    margin: 210px 0 0 120px;
+    width: 52%;
+  }
+  .topo-home .container-topo h1 {
+    font-size: 62px;
+    line-height: 62px;
+    margin-bottom: 30px;
+  }
+  .topo-home .container-topo p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140.8%;
+  }
+  .topo-home .graf-topo {
+    width: 100%;
+    min-height: 670px;
+  }
+  .box-clientes {
+    padding: 180px 80px 80px 80px;
+  }
   footer .divisor {
     margin-top: 74px;
     margin-bottom: 0;
@@ -12365,6 +12393,12 @@ Meida Queries  768px
   }
 }
 
+@media screen and (max-height: 768px) and (max-width: 820px) {
+  .topo-home {
+    height: 100vh;
+  }
+}
+
 /*
 =====================================================
 Meida Queries  991px
@@ -12415,8 +12449,12 @@ Meida Queries  991px
   }
 }
 
-@media (max-height: 1470px) {
+@media (min-width: 1470px) {
   .bg-white, .bg-inverse {
+    background-size: 100% 100%;
+    min-height: 480px;
+  }
+  .bg-inverse i {
     background-size: 100% 100%;
     min-height: 480px;
   }

@@ -8,6 +8,31 @@ Meida Queries  768px
         padding: 80px 80px;
     }
 
+    .topo-home {
+        .container-topo{
+          margin: 210px 0 0 120px;
+          width: 52%;
+          h1{
+            font-size: 62px;
+            line-height: 62px;
+            margin-bottom: 30px;
+          }
+          p{
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 140.8%;
+          }                    
+        }
+        .graf-topo{
+            width: 100%;
+            min-height: 670px;
+          }        
+    }
+
+    .box-clientes{
+        padding: 180px 80px 80px 80px;
+    }
+
     // Footer
     footer{
         .divisor{
@@ -59,3 +84,12 @@ Meida Queries  768px
     }    
 }
 // 768px
+
+
+// Media query para telas de celulares grandes
+@media screen and (max-height: 768px) and (max-width: 820px) {
+    //Topo Home
+    .topo-home {
+        height: 100vh;
+    }
+}
