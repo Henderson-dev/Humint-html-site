@@ -4,9 +4,14 @@ Meida Queries  768px
 =====================================================
 */
 @media (min-width: 768px) {
+    
     .gap-padrao{
         padding: 80px 80px;
     }
+    .btn{
+        font-size: 1.6em;
+        padding: 17px 30px 19px;
+      }    
 
     .topo-home {
         .container-topo{
@@ -31,6 +36,13 @@ Meida Queries  768px
 
     .box-clientes{
         padding: 180px 80px 80px 80px;
+    }
+
+    .bg-white, .bg-inverse{
+        h2{
+            font-size: 4.5em;
+            line-height: 1em;           
+        }
     }
 
     // Footer

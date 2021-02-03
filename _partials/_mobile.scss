@@ -52,14 +52,14 @@ p {
 .btn{
   font-style: normal;
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 1.1em;
   line-height: 0;
   text-align: center;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   box-sizing: border-box;
   border-radius: 22.5px;
-  padding: 17px 30px 19px;
+  padding: 17px 24px 19px;
 }
 .btn-default{
   border: 2px solid #103957;
@@ -366,7 +366,7 @@ p {
     font-family: $font-titles;
     font-style: normal;
     font-weight: normal;
-    font-size: 4.5em;
+    font-size: 3.5em;
     line-height: 1em;
     letter-spacing: -0.02em;
     color: #103957;
@@ -416,7 +416,7 @@ p {
     font-family: $font-titles;
     font-style: normal;
     font-weight: normal;
-    font-size: 4.5em;
+    font-size: 3.5em;
     line-height: 1em;
     letter-spacing: -0.02em;
     color: #ffffff;
@@ -424,7 +424,7 @@ p {
   }
   p{
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 1.8rem;
     line-height: 140.8%;
     color: #FFFFFF;   

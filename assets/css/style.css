@@ -11078,7 +11078,7 @@ p {
 .btn {
   font-style: normal;
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 1.1em;
   line-height: 0;
   text-align: center;
   letter-spacing: -0.02em;
@@ -11086,7 +11086,7 @@ p {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 22.5px;
-  padding: 17px 30px 19px;
+  padding: 17px 24px 19px;
 }
 
 .btn-default {
@@ -11412,7 +11412,7 @@ p {
   font-family: "Arvo", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 4.5em;
+  font-size: 3.5em;
   line-height: 1em;
   letter-spacing: -0.02em;
   color: #103957;
@@ -11468,7 +11468,7 @@ p {
   font-family: "Arvo", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 4.5em;
+  font-size: 3.5em;
   line-height: 1em;
   letter-spacing: -0.02em;
   color: #ffffff;
@@ -11477,7 +11477,7 @@ p {
 
 .bg-inverse p {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1.8rem;
   line-height: 140.8%;
   color: #FFFFFF;
@@ -12314,6 +12314,10 @@ Meida Queries  768px
   .gap-padrao {
     padding: 80px 80px;
   }
+  .btn {
+    font-size: 1.6em;
+    padding: 17px 30px 19px;
+  }
   .topo-home .container-topo {
     margin: 210px 0 0 120px;
     width: 52%;
@@ -12334,6 +12338,10 @@ Meida Queries  768px
   }
   .box-clientes {
     padding: 180px 80px 80px 80px;
+  }
+  .bg-white h2, .bg-inverse h2 {
+    font-size: 4.5em;
+    line-height: 1em;
   }
   footer .divisor {
     margin-top: 74px;

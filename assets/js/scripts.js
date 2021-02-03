@@ -51,11 +51,11 @@ var swiper = new Swiper('.swiper-container', {
   //   prevEl: '.swiper-button-prev',
   // },
   breakpoints: {
-    440: {
+    300: {
       slidesPerView: 1,
       spaceBetween: 10,
     },    
-    640: {
+    576: {
       slidesPerView: 2,
       spaceBetween: 10,
     },
