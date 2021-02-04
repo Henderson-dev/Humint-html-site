@@ -42,6 +42,26 @@ Meida Queries  768px
     .box-clientes{
         padding: 180px 80px 80px 80px;
     }
+    .clientes-sobre{
+        padding: 80px 30px 80px 30px;
+    }
+    // area clientes
+    .container-clientes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card-cliente{
+        width: 16%;
+        margin: 0 20px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-height: 120px;
+        img{
+            width: 85%;
+        }
+        }
+    }    
 
     .bg-white, .bg-inverse{
         h2{

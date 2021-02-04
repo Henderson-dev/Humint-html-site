@@ -502,6 +502,9 @@ p {
     }    
   }  
 }
+.clientes-sobre{
+  padding: 60px 30px 60px 30px;
+}
 
 // Swipper slider de clientes
 .swiper-container {
@@ -861,6 +864,7 @@ footer{
   color:#fff;
   position: relative;
   background-color: #103957;
+  padding-bottom: 230px;
   i{
     position: absolute;
     top: 0;
@@ -935,8 +939,8 @@ footer{
   flex-wrap: wrap;
   justify-content: center;
   .card-cliente{
-    width: 16%;
-    margin: 0 20px 20px 20px;
+    width: 40%;
+    margin: 0 13px 30px 13px;
     display: flex;
     flex-direction: column;
     justify-content: center;
