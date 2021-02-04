@@ -11046,10 +11046,11 @@ b {
 }
 
 p {
-  font-size: 2rem;
-  line-height: 4rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
   letter-spacing: 0;
   margin-bottom: 30px;
+  font-weight: 300;
 }
 
 .btn {
@@ -11263,7 +11264,7 @@ p {
 .box-inverse span {
   font-style: normal;
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 1.2em;
   line-height: 140.8%;
   color: #999999;
   margin-bottom: 1.7em;
@@ -11286,8 +11287,8 @@ p {
   font-family: "Arvo", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 62px;
-  line-height: 62px;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
   letter-spacing: -0.02em;
   color: #FFFFFF;
   margin-bottom: 30px;
@@ -11806,6 +11807,7 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 
 .topo-sobre {
   height: 100vh;
+  padding-top: 130px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11837,9 +11839,9 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   height: 90vh;
   z-index: 5;
 }
@@ -11896,18 +11898,18 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 }
 
 .conteudo {
-  padding: 140px 80px;
+  padding: 40px 20px;
 }
 
 .conteudo h2 {
   font-family: "Arvo", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 5rem;
-  line-height: 6rem;
+  font-size: 2.6rem;
+  line-height: 3.6rem;
   letter-spacing: -0.02em;
   color: #103957;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 .conteudo h3 {
@@ -11939,6 +11941,10 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   font-size: 2rem;
   line-height: 140.8%;
   color: #000000;
+}
+
+.conteudo .card-box {
+  margin-bottom: 30px;
 }
 
 .conteudo .card-box h3 {
@@ -12032,7 +12038,8 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-top: -275px;
+  margin-top: -110px;
+  margin-bottom: 16px;
 }
 
 .bloco-foto .img-topo img {
@@ -12168,9 +12175,9 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   height: 90vh;
   z-index: 5;
 }
@@ -12330,6 +12337,11 @@ Meida Queries  768px
 =====================================================
 */
 @media (min-width: 768px) {
+  p {
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-bottom: 30px;
+  }
   .gap-padrao {
     padding: 80px 80px;
   }
@@ -12408,6 +12420,58 @@ Meida Queries  768px
   }
   footer .bloco-rsociais .ico-zap {
     position: initial;
+  }
+  .box-inverse span {
+    font-size: 1.6em;
+    margin-bottom: 1.7em;
+  }
+  .box-inverse h1 {
+    font-size: 6.2rem;
+    line-height: 6.2rem;
+    margin-bottom: 30px;
+  }
+  .topo-sobre {
+    height: 100vh;
+    padding-top: 130px;
+  }
+  .topo-sobre {
+    height: 100vh;
+    padding-top: 0;
+  }
+  .topo-sobre .row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .topo-sobre .graf-topo {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    z-index: 5;
+  }
+  .topo-sobre .graf-topo img {
+    width: 70%;
+  }
+  .conteudo {
+    padding: 140px 80px;
+  }
+  .conteudo h2 {
+    font-size: 5rem;
+    line-height: 6rem;
+    margin-bottom: 50px;
+  }
+  .card-box {
+    margin-bottom: 0;
+  }
+  .bloco-foto .img-topo {
+    margin-top: -275px;
+    margin-bottom: 0;
   }
 }
 

@@ -25,10 +25,11 @@ b {
   font-weight: 700;
 }
 p {
-  font-size: 2rem;
-  line-height: 4rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
   letter-spacing: 0;
   margin-bottom: 30px;
+  font-weight: 300;
 }
 .btn{
   font-style: normal;
@@ -232,7 +233,7 @@ p {
   span{
     font-style: normal;
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 1.2em;
     line-height: 140.8%;
     color: #999999;
     margin-bottom: 1.7em;
@@ -253,8 +254,8 @@ p {
     font-family: $font-titles;
     font-style: normal;
     font-weight: normal;
-    font-size: 62px;
-    line-height: 62px;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
     letter-spacing: -0.02em;
     color: #FFFFFF;
     margin-bottom: 30px;    
@@ -699,7 +700,7 @@ footer{
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     height: 90vh;
     z-index: 5;
   }
@@ -718,6 +719,7 @@ footer{
 // Sobre
 .topo-sobre{
   height: 100vh;
+  padding-top: 130px;
   @include base-topo;
 
   .filter-bottom{
@@ -754,16 +756,16 @@ footer{
 }
 // conteudo
 .conteudo{
-  padding: 140px 80px;
+  padding: 40px 20px;
   h2{
     font-family: $font-titles;
     font-style: normal;
     font-weight: normal;
-    font-size: 5rem;
-    line-height: 6rem;
+    font-size: 2.6rem;
+    line-height: 3.6rem;
     letter-spacing: -0.02em;
     color: #103957;    
-    margin-bottom: 50px;
+    margin-bottom: 35px;
   }
   h3{
     font-family: $font-titles;
@@ -792,6 +794,7 @@ footer{
     color: #000000;    
   }
   .card-box{
+    margin-bottom: 30px;
     h3{
       color: $primary;
     }
@@ -876,7 +879,8 @@ footer{
   .img-topo{
     display: flex;
     justify-content: flex-end;
-    margin-top: -275px;
+    margin-top: -110px;
+    margin-bottom: 16px;
     img{
       width: 55%;
     }
