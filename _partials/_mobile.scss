@@ -857,7 +857,7 @@ footer{
 }
 // gap-bloco-foto
 .gap-bloco-foto{
-  padding-top: 350px;
+  padding-top: 350px !important;
 }
 // bloco azul com foto no topo
 .bloco-foto{
@@ -885,8 +885,9 @@ footer{
     justify-content: flex-end;
     margin-top: -110px;
     margin-bottom: 16px;
+    margin-right: 0;
     img{
-      width: 55%;
+      width: 70%;
     }
   }
   .img-topo-sl{
@@ -938,6 +939,7 @@ footer{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 30px;
   .card-cliente{
     width: 40%;
     margin: 0 13px 30px 13px;

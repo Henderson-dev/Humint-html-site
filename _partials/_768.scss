@@ -43,7 +43,7 @@ Meida Queries  768px
         padding: 180px 80px 80px 80px;
     }
     .clientes-sobre{
-        padding: 80px 30px 80px 30px;
+        padding: 80px 80px 80px 80px;
     }
     // area clientes
     .container-clientes{
@@ -163,6 +163,10 @@ Meida Queries  768px
         .img-topo{
             margin-top: -275px;
             margin-bottom: 0;
+            margin-right: 0;
+            img{
+                width: 70%;
+            }            
         }
     }           
     

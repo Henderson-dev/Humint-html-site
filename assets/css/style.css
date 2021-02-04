@@ -12007,7 +12007,7 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 }
 
 .gap-bloco-foto {
-  padding-top: 350px;
+  padding-top: 350px !important;
 }
 
 .bloco-foto {
@@ -12045,10 +12045,11 @@ footer .bloco-rsociais .ico-zap:hover svg path {
           justify-content: flex-end;
   margin-top: -110px;
   margin-bottom: 16px;
+  margin-right: 0;
 }
 
 .bloco-foto .img-topo img {
-  width: 55%;
+  width: 70%;
 }
 
 .bloco-foto .img-topo-sl {
@@ -12125,6 +12126,7 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 30px;
 }
 
 .container-clientes .card-cliente {
@@ -12376,7 +12378,7 @@ Meida Queries  768px
     padding: 180px 80px 80px 80px;
   }
   .clientes-sobre {
-    padding: 80px 30px 80px 30px;
+    padding: 80px 80px 80px 80px;
   }
   .container-clientes {
     display: -webkit-box;
@@ -12508,6 +12510,10 @@ Meida Queries  768px
   .bloco-foto .img-topo {
     margin-top: -275px;
     margin-bottom: 0;
+    margin-right: 0;
+  }
+  .bloco-foto .img-topo img {
+    width: 70%;
   }
 }
 
