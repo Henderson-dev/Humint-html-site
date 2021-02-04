@@ -11920,8 +11920,8 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   font-family: "Arvo", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 3rem;
-  line-height: 5rem;
+  font-size: 2.1rem;
+  line-height: 2.8rem;
   letter-spacing: -0.02em;
   color: #103957;
   margin-bottom: 30px;
@@ -11936,7 +11936,7 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 }
 
 .conteudo article h3 {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .conteudo p {
@@ -11969,8 +11969,8 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   font-family: "Arvo", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 3.2rem;
-  line-height: 4rem;
+  font-size: 2.6rem;
+  line-height: 3rem;
   letter-spacing: -0.02em;
   color: #000000;
   margin-bottom: 16px;
@@ -12007,14 +12007,14 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 }
 
 .gap-bloco-foto {
-  padding-top: 350px !important;
+  padding-top: 100px;
 }
 
 .bloco-foto {
   color: #fff;
   position: relative;
   background-color: #103957;
-  padding-bottom: 230px;
+  padding-bottom: 60px;
 }
 
 .bloco-foto i {
@@ -12073,10 +12073,10 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-top: -400px;
+  margin-top: -150px;
   position: absolute;
   left: -80px;
-  width: 70%;
+  width: 100%;
 }
 
 .bloco-foto .img-topo-left i {
@@ -12356,6 +12356,15 @@ Meida Queries  768px
     font-size: 1.6em;
     padding: 17px 30px 19px;
   }
+  article {
+    margin-bottom: 60px;
+  }
+  article h2 {
+    margin-bottom: 0;
+  }
+  article h3 {
+    margin-bottom: 60px;
+  }
   .topo-home .container-topo {
     margin: 210px 0 0 120px;
     width: 52%;
@@ -12504,8 +12513,17 @@ Meida Queries  768px
     line-height: 6rem;
     margin-bottom: 50px;
   }
+  .conteudo h3 {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
   .card-box {
     margin-bottom: 0;
+  }
+  .card-box h3 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    margin-bottom: 16px;
   }
   .bloco-foto .img-topo {
     margin-top: -275px;
@@ -12514,6 +12532,14 @@ Meida Queries  768px
   }
   .bloco-foto .img-topo img {
     width: 70%;
+  }
+  .bloco-foto .img-topo-left {
+    width: 70%;
+    margin-top: -400px;
+  }
+  .gap-bloco-foto {
+    padding-top: 350px;
+    padding-bottom: 230px;
   }
 }
 

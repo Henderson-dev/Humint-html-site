@@ -16,7 +16,17 @@ Meida Queries  768px
     .btn{
         font-size: 1.6em;
         padding: 17px 30px 19px;
-      }    
+    }  
+    article{
+        margin-bottom: 60px;
+        h2{
+          margin-bottom: 0;
+        }
+        h3{
+          margin-bottom: 60px;
+        }
+      }
+
 
     .topo-home {
         .container-topo{
@@ -153,10 +163,19 @@ Meida Queries  768px
             font-size: 5rem;
             line-height: 6rem;   
             margin-bottom: 50px;
-          }        
+        }
+        h3{
+            font-size: 3rem;
+            line-height: 5rem;
+        }              
     }
     .card-box{
         margin-bottom: 0;
+        h3{
+            font-size: 3.2rem;
+            line-height: 4rem;
+            margin-bottom: 16px;  
+        }        
     }
     // bloco azul com foto no topo
     .bloco-foto{
@@ -168,9 +187,17 @@ Meida Queries  768px
                 width: 70%;
             }            
         }
+        .img-topo-left{
+            width: 70%;
+            margin-top: -400px;
+        }        
     }           
     
-
+    // gap-bloco-foto
+    .gap-bloco-foto{
+        padding-top: 350px;
+        padding-bottom: 230px;
+    }
 
 }
 // 768px

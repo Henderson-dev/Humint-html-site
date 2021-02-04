@@ -774,8 +774,8 @@ footer{
     font-family: $font-titles;
     font-style: normal;
     font-weight: normal;
-    font-size: 3rem;
-    line-height: 5rem;
+    font-size: 2.1rem;
+    line-height: 2.8rem;
     letter-spacing: -0.02em;
     color: #103957;
     margin-bottom: 30px;
@@ -786,7 +786,7 @@ footer{
       margin-bottom: 0;
     }
     h3{
-      margin-bottom: 60px;
+      margin-bottom: 30px;
     }
   }
   p{
@@ -821,8 +821,8 @@ footer{
     font-family: $font-titles;
     font-style: normal;
     font-weight: normal;
-    font-size: 3.2rem;
-    line-height: 4rem;
+    font-size: 2.6rem;
+    line-height: 3rem;
     letter-spacing: -0.02em;
     color: #000000;
     margin-bottom: 16px;  
@@ -857,14 +857,14 @@ footer{
 }
 // gap-bloco-foto
 .gap-bloco-foto{
-  padding-top: 350px !important;
+  padding-top: 100px;
 }
 // bloco azul com foto no topo
 .bloco-foto{
   color:#fff;
   position: relative;
   background-color: #103957;
-  padding-bottom: 230px;
+  padding-bottom: 60px;
   i{
     position: absolute;
     top: 0;
@@ -901,10 +901,10 @@ footer{
   .img-topo-left{
     display: flex;
     justify-content: flex-start;
-    margin-top: -400px;
+    margin-top: -150px;
     position: absolute;
     left: -80px;
-    width: 70%;
+    width: 100%;
     i{
       @include box-i;
       background: #002037;
