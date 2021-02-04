@@ -12010,6 +12010,10 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   padding-top: 100px;
 }
 
+.gap-bloco-foto-solucoes {
+  padding-top: 100px;
+}
+
 .bloco-foto {
   color: #fff;
   position: relative;
@@ -12059,7 +12063,7 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-top: -120px;
+  margin-top: -160px;
 }
 
 .bloco-foto .img-topo-sl img {
@@ -12597,12 +12601,15 @@ Meida Queries  768px
     padding-top: 350px;
     padding-bottom: 230px;
   }
+  .gap-bloco-foto-solucoes {
+    padding-top: 220px;
+  }
   .card-solucoes h3 {
-    font-size: 4rem;
-    line-height: 5.5rem;
+    font-size: 3.2rem;
+    line-height: 4.2rem;
   }
   .card-solucoes p {
-    width: 80%;
+    width: 100%;
   }
   .form-contact h2 {
     font-size: 3.8rem;
@@ -12698,6 +12705,13 @@ Meida Queries  991px
   }
   .main-menu .navbar-nav .separator {
     padding: 0.5rem 1rem;
+  }
+  .card-solucoes h3 {
+    font-size: 4rem;
+    line-height: 5.5rem;
+  }
+  .card-solucoes p {
+    width: 80%;
   }
 }
 
