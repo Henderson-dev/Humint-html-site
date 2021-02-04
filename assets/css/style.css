@@ -11176,8 +11176,8 @@ p {
 .main-menu .nav-item {
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 2rem;
+  line-height: 3.8rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
@@ -11909,8 +11909,8 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   font-family: "Arvo", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.6rem;
-  line-height: 3.6rem;
+  font-size: 3rem;
+  line-height: 3.8rem;
   letter-spacing: -0.02em;
   color: #103957;
   margin-bottom: 35px;
@@ -11942,7 +11942,7 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 .conteudo p {
   font-style: normal;
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 140.8%;
   color: #000000;
 }
@@ -11995,15 +11995,15 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   font-family: "Arvo", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 4rem;
-  line-height: 5.5rem;
+  font-size: 3rem;
+  line-height: 3.5rem;
   letter-spacing: -0.02em;
   color: #103957;
   margin-bottom: 16px;
 }
 
 .card-solucoes p {
-  width: 80%;
+  width: 100%;
 }
 
 .gap-bloco-foto {
@@ -12059,11 +12059,11 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-top: -340px;
+  margin-top: -120px;
 }
 
 .bloco-foto .img-topo-sl img {
-  width: 65%;
+  width: 100%;
 }
 
 .bloco-foto .img-topo-left {
@@ -12206,6 +12206,10 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   width: 70%;
 }
 
+.img-contato {
+  background-position: top right;
+}
+
 .form-contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12217,14 +12221,14 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 }
 
 .form-contact h2 {
-  font-size: 3.8rem;
-  line-height: 4.8rem;
-  padding-right: 60px;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  padding-right: 0;
   margin-bottom: 35px;
 }
 
 .form-contact p {
-  padding-right: 60px;
+  padding-right: 0;
 }
 
 .form-contact a {
@@ -12236,6 +12240,10 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   color: #000000;
   margin-bottom: 6px;
   display: block;
+}
+
+.form-contact .form-container {
+  margin-top: 40px;
 }
 
 .form-contact label {
@@ -12281,17 +12289,61 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   width: 100%;
 }
 
+.form-contact .upload-btn {
+  position: relative;
+  margin-bottom: 26px;
+  background: transparent;
+  border: 2px solid #002037;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.115em;
+  color: #000;
+  padding: 10px 16px 12px;
+  width: 100%;
+  height: 45px;
+  background-image: url("../images/upload_curriculo.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 75px;
+  cursor: pointer;
+}
+
+.form-contact .upload-btn:hover {
+  background-color: #eee;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.form-contact .upload-btn input[type="file"] {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  display: block;
+}
+
 .form-contact .block-capcha {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.form-contact .block-capcha input[type="submit"] {
+  margin-top: 20px;
 }
 
 .form-contact input[type="submit"] {
@@ -12517,6 +12569,10 @@ Meida Queries  768px
     font-size: 3rem;
     line-height: 5rem;
   }
+  .conteudo p {
+    font-size: 2rem;
+    line-height: 140.8%;
+  }
   .card-box {
     margin-bottom: 0;
   }
@@ -12540,6 +12596,43 @@ Meida Queries  768px
   .gap-bloco-foto {
     padding-top: 350px;
     padding-bottom: 230px;
+  }
+  .card-solucoes h3 {
+    font-size: 4rem;
+    line-height: 5.5rem;
+  }
+  .card-solucoes p {
+    width: 80%;
+  }
+  .form-contact h2 {
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    padding-right: 60px;
+    margin-bottom: 35px;
+  }
+  .form-contact p {
+    padding-right: 60px;
+  }
+  .form-contact .form-container {
+    margin-top: 0;
+  }
+  .form-contact .block-capcha {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .form-contact .block-capcha input[type="submit"] {
+    margin-top: 0;
+  }
+  .bloco-foto .img-topo-sl {
+    margin-top: -340px;
+  }
+  .bloco-foto .img-topo-sl img {
+    width: 65%;
   }
 }
 

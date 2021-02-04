@@ -167,7 +167,11 @@ Meida Queries  768px
         h3{
             font-size: 3rem;
             line-height: 5rem;
-        }              
+        }
+        p{
+            font-size: 2rem;
+            line-height: 140.8%;
+        }                    
     }
     .card-box{
         margin-bottom: 0;
@@ -197,6 +201,50 @@ Meida Queries  768px
     .gap-bloco-foto{
         padding-top: 350px;
         padding-bottom: 230px;
+    }
+
+    // card soluções
+    .card-solucoes{
+        h3{
+            font-size: 4rem;
+            line-height: 5.5rem;   
+        }
+        p{
+            width: 80%;
+        }
+    }
+    
+    // formularios
+    .form-contact{
+        h2{
+            font-size: 3.8rem;
+            line-height: 4.8rem;
+            padding-right: 60px;
+            margin-bottom: 35px;
+        }
+        p{
+            padding-right: 60px;
+        }
+        .form-container{
+            margin-top: 0;
+        }                 
+        .block-capcha{
+            flex-direction: row;
+            justify-content: space-between;
+            input[type="submit"] {
+                margin-top: 0;
+            }            
+        }
+    }
+
+    // bloco azul com foto no topo
+    .bloco-foto{
+        .img-topo-sl{
+            margin-top: -340px;
+            img{
+              width: 65%;
+            }
+        }        
     }
 
 }
