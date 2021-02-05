@@ -12487,6 +12487,18 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   background-color: #0088FF;
 }
 
+.v-mobile {
+  display: block;
+}
+
+.v-desktop {
+  display: none;
+}
+
+.gf-mobile {
+  margin-bottom: -50px;
+}
+
 /*
 =====================================================
 Meida Queries  576px
@@ -12761,6 +12773,12 @@ Meida Queries  768px
   }
   .topo-intena .row {
     height: 90vh;
+  }
+  .v-mobile {
+    display: none;
+  }
+  .v-desktop {
+    display: block;
   }
 }
 

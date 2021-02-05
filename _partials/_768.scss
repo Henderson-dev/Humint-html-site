@@ -259,7 +259,15 @@ Meida Queries  768px
         .row{
             height: 90vh;    
           }        
-    }    
+    }
+    
+    .v-mobile{
+        display: none;
+    }
+    .v-desktop{
+        display: block;
+    }
+    
 
 }
 // 768px
@@ -291,3 +299,4 @@ Meida Queries  768px
         height: 70vh;
     }     
 }
+
