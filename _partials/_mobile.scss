@@ -722,15 +722,15 @@ footer{
 // topo interna
 .topo-intena{
   position: relative;
-  height: 75vh;
-  padding-top: 130px;
+  height: 70vh;
+  padding-top: 70px;
   @include base-topo;
   .row{
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 90vh;
+    height: 50vh;
     z-index: 5;    
   }
   .graf-topo-internas{
