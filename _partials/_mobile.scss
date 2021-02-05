@@ -719,6 +719,30 @@ footer{
     }
   }  
 }
+// topo interna
+.topo-intena{
+  position: relative;
+  height: 75vh;
+  padding-top: 130px;
+  @include base-topo;
+  .row{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    z-index: 5;    
+  }
+  .graf-topo-internas{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  } 
+}
 // Sobre
 .topo-sobre{
   height: 110vh;
