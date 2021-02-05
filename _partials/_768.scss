@@ -252,6 +252,14 @@ Meida Queries  768px
             }
         }        
     }
+    // topo interna
+    .topo-intena{
+        height: 100vh;
+        padding-top: 130px;
+        .row{
+            height: 90vh;    
+          }        
+    }    
 
 }
 // 768px
@@ -279,4 +287,7 @@ Meida Queries  768px
     .topo-home {
         height: 100vh;
     }
+    .topo-intena{
+        height: 70vh;
+    }     
 }
