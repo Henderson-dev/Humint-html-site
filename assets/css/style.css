@@ -11810,7 +11810,7 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 }
 
 .topo-sobre {
-  height: 100vh;
+  height: 110vh;
   padding-top: 130px;
   position: relative;
   display: -webkit-box;
@@ -11865,6 +11865,27 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 
 .topo-sobre .graf-topo img {
   width: 70%;
+}
+
+.topo-sobre .graf-topo {
+  display: none;
+}
+
+.topo-sobre .graf-topo-mobile {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  z-index: 5;
+}
+
+.topo-sobre .graf-topo-mobile img {
+  width: 100%;
 }
 
 .topo-sobre .filter-bottom {
@@ -12018,7 +12039,6 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   color: #fff;
   position: relative;
   background-color: #103957;
-  padding-bottom: 60px;
 }
 
 .bloco-foto i {
@@ -12119,6 +12139,10 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 
 .bloco-foto .card-box h3 {
   color: #fff;
+}
+
+.foto-quem-somos {
+  padding-bottom: 260px;
 }
 
 .container-clientes {
@@ -12383,6 +12407,9 @@ Meida Queries  576px
 =====================================================
 */
 @media (min-width: 576px) {
+  .topo-sobre {
+    height: 100vh;
+  }
   footer .navbar-footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -12436,6 +12463,7 @@ Meida Queries  768px
     line-height: 140.8%;
   }
   .topo-home .graf-topo {
+    display: inline-block;
     width: 100%;
     min-height: 670px;
   }
@@ -12535,10 +12563,6 @@ Meida Queries  768px
   }
   .topo-sobre {
     height: 100vh;
-    padding-top: 130px;
-  }
-  .topo-sobre {
-    height: 100vh;
     padding-top: 0;
   }
   .topo-sobre .row {
@@ -12547,9 +12571,10 @@ Meida Queries  768px
             justify-content: center;
   }
   .topo-sobre .graf-topo {
+    display: inline-block;
     position: absolute;
     right: 0;
-    bottom: 20px;
+    bottom: 25%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -12559,7 +12584,10 @@ Meida Queries  768px
     z-index: 5;
   }
   .topo-sobre .graf-topo img {
-    width: 70%;
+    width: 45%;
+  }
+  .topo-sobre .graf-topo-mobile {
+    display: none;
   }
   .conteudo {
     padding: 140px 80px;
@@ -12712,6 +12740,30 @@ Meida Queries  991px
   }
   .card-solucoes p {
     width: 80%;
+  }
+  .topo-sobre {
+    padding-top: 60px;
+  }
+  .topo-sobre .row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .topo-sobre .graf-topo {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    z-index: 5;
+  }
+  .topo-sobre .graf-topo img {
+    width: 70%;
   }
 }
 

@@ -44,6 +44,7 @@ Meida Queries  768px
           }                    
         }
         .graf-topo{
+            display: inline-block;
             width: 100%;
             min-height: 670px;
           }        
@@ -128,34 +129,36 @@ Meida Queries  768px
             margin-bottom: 30px;    
         }
     }
-    // Sobre
-    .topo-sobre{
-        height: 100vh;
-        padding-top: 130px;
-    }
 
     @mixin base-topo{
         .row{
           justify-content: center;
         }
         .graf-topo{
+          display: inline-block;
           position: absolute;
           right: 0;
-          bottom: 20px;
+          bottom: 25%;
           display: flex;
           justify-content: flex-end;
           z-index: 5;
           img{
-            width: 70%;
+            width: 45%;
           }
         }  
       }
+
     // Sobre
     .topo-sobre{
         height: 100vh;
         padding-top: 0;
         @include base-topo;
+        .graf-topo-mobile{
+            display: none;
+        }        
     }
+
+
     // conteudo
     .conteudo{
         padding: 140px 80px;

@@ -63,7 +63,35 @@ Meida Queries  991px
       p{
           width: 80%;
       }
-  }
+    }
+
+    @mixin base-topo{
+      .row{
+        justify-content: center;
+      }
+      .graf-topo{
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        bottom: 20px;
+        display: flex;
+        justify-content: flex-end;
+        z-index: 5;
+        img{
+          width: 70%;
+        }
+      }  
+    }    
+
+    // Sobre
+    .topo-sobre{
+      padding-top: 60px;
+      @include base-topo;
+    }
+
+
+
+
 
 }
 // 991px

@@ -721,9 +721,24 @@ footer{
 }
 // Sobre
 .topo-sobre{
-  height: 100vh;
+  height: 110vh;
   padding-top: 130px;
   @include base-topo;
+
+  .graf-topo{
+    display: none;
+  }
+  .graf-topo-mobile{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 5;
+    img{
+      width: 100%;
+    }    
+  }
 
   .filter-bottom{
     position: absolute;
@@ -867,7 +882,7 @@ footer{
   color:#fff;
   position: relative;
   background-color: #103957;
-  padding-bottom: 60px;
+  
   i{
     position: absolute;
     top: 0;
@@ -936,6 +951,9 @@ footer{
     }
 
   }
+}
+.foto-quem-somos{
+  padding-bottom: 260px;
 }
 // area clientes
 .container-clientes{
