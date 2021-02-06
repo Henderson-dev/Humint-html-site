@@ -89,12 +89,96 @@ Meida Queries  991px
       @include base-topo;
     }
 
+    // topo interna
+    .topo-intena{
+      height: 100vh;
+      padding-top: 130px;
+      .row{
+          height: 90vh;    
+        }
+        .graf-topo-internas{
+          position: absolute;
+          right: 0;
+          bottom: initial;
+          top: 20vh;
+          width: 100%;
+          img{
+            width: 100%;
+          }
+        }               
+    }
 
+    // topo contato
+    .topo-contato{
+      height: 70vh;
+      padding-top: 130px;
+      .row{
+          height: 70vh;    
+        }
+        .graf-topo-internas{
+          position: absolute;
+          right: 0;
+          bottom: initial;
+          top: 20vh;
+          width: 100%;
+          img{
+            width: 100%;
+          }
+        }      
+    }
 
+    .v-mobile{
+        display: none;
+    }
+    .v-desktop{
+        display: block;
+    }
 
 
 }
 // 991px
+
+
+
+// Controle para telas notbook de altura de 768px
+@media (max-height: 768px) {
+  //Topo Home
+  .topo-home {
+      height: 100vh;
+  }
+  // topo internas
+  .topo-internas{
+      height: 100vh;
+  } 
+  .topo-intena{
+      height: 100vh;
+  }
+  
+  // topo contato
+  .topo-contato{
+      height: 100vh;
+      padding-top: 130px;
+      .row{
+          height: 90vh;    
+        }
+        .graf-topo-internas{
+          position: absolute;
+          right: 0;
+          bottom: initial;
+          top: 20vh;
+          width: 100%;
+          img{
+            width: 100%;
+          }
+        }      
+    }
+  
+    // banner
+    .banner {
+      min-height: 45vh;
+    }
+}
+// 768px
 
 
 // Controle para telas grandes full hd

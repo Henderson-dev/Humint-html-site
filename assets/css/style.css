@@ -12495,10 +12495,6 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   display: none;
 }
 
-.gf-mobile {
-  margin-bottom: -50px;
-}
-
 /*
 =====================================================
 Meida Queries  576px
@@ -12767,31 +12763,6 @@ Meida Queries  768px
   .bloco-foto .img-topo-sl img {
     width: 65%;
   }
-  .topo-intena {
-    height: 100vh;
-    padding-top: 130px;
-  }
-  .topo-intena .row {
-    height: 90vh;
-  }
-  .v-mobile {
-    display: none;
-  }
-  .v-desktop {
-    display: block;
-  }
-}
-
-@media (max-height: 768px) {
-  .topo-home {
-    height: 140vh;
-  }
-  .topo-internas {
-    height: 100vh;
-  }
-  .topo-intena {
-    height: 100vh;
-  }
 }
 
 @media screen and (max-height: 768px) and (max-width: 820px) {
@@ -12881,6 +12852,78 @@ Meida Queries  991px
   }
   .topo-sobre .graf-topo img {
     width: 70%;
+  }
+  .topo-intena {
+    height: 100vh;
+    padding-top: 130px;
+  }
+  .topo-intena .row {
+    height: 90vh;
+  }
+  .topo-intena .graf-topo-internas {
+    position: absolute;
+    right: 0;
+    bottom: initial;
+    top: 20vh;
+    width: 100%;
+  }
+  .topo-intena .graf-topo-internas img {
+    width: 100%;
+  }
+  .topo-contato {
+    height: 70vh;
+    padding-top: 130px;
+  }
+  .topo-contato .row {
+    height: 70vh;
+  }
+  .topo-contato .graf-topo-internas {
+    position: absolute;
+    right: 0;
+    bottom: initial;
+    top: 20vh;
+    width: 100%;
+  }
+  .topo-contato .graf-topo-internas img {
+    width: 100%;
+  }
+  .v-mobile {
+    display: none;
+  }
+  .v-desktop {
+    display: block;
+  }
+}
+
+@media (max-height: 768px) {
+  .topo-home {
+    height: 100vh;
+  }
+  .topo-internas {
+    height: 100vh;
+  }
+  .topo-intena {
+    height: 100vh;
+  }
+  .topo-contato {
+    height: 100vh;
+    padding-top: 130px;
+  }
+  .topo-contato .row {
+    height: 90vh;
+  }
+  .topo-contato .graf-topo-internas {
+    position: absolute;
+    right: 0;
+    bottom: initial;
+    top: 20vh;
+    width: 100%;
+  }
+  .topo-contato .graf-topo-internas img {
+    width: 100%;
+  }
+  .banner {
+    min-height: 45vh;
   }
 }
 

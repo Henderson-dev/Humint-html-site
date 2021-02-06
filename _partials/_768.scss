@@ -252,39 +252,10 @@ Meida Queries  768px
             }
         }        
     }
-    // topo interna
-    .topo-intena{
-        height: 100vh;
-        padding-top: 130px;
-        .row{
-            height: 90vh;    
-          }        
-    }
+
     
-    .v-mobile{
-        display: none;
-    }
-    .v-desktop{
-        display: block;
-    }
     
 
-}
-// 768px
-
-// Controle para telas notbook de altura de 768px
-@media (max-height: 768px) {
-    //Topo Home
-    .topo-home {
-        height: 140vh;
-    }
-    // topo internas
-    .topo-internas{
-        height: 100vh;
-    } 
-    .topo-intena{
-        height: 100vh;
-    }  
 }
 // 768px
 
