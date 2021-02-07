@@ -342,6 +342,10 @@ p {
   background-position: center;
   background-size: cover;
   min-height: 600px;
+  .container-fluid{
+    position: relative;
+    z-index: 5;
+  }  
   span{
     font-style: normal;
     font-weight: bold;

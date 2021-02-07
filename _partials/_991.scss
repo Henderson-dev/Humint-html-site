@@ -91,10 +91,10 @@ Meida Queries  991px
 
     // topo interna
     .topo-intena{
-      height: 100vh;
+      height: 70vh;
       padding-top: 130px;
       .row{
-          height: 90vh;    
+          height: 70vh;    
         }
         .graf-topo-internas{
           position: absolute;
@@ -170,6 +170,17 @@ Meida Queries  991px
 }
 // 991px
 
+// Controle para telas grandes full hd
+@media (min-width: 1470px) {
+  .bg-white, .bg-inverse {
+    background-size: 100% 100%;
+    min-height: 480px;
+  }
+  .bg-inverse i{
+    background-size: 100% 100%;
+    min-height: 480px; 
+  }  
+}
 
 
 // Controle para telas notbook de altura de 768px
@@ -177,6 +188,17 @@ Meida Queries  991px
   //Topo Home
   .topo-home {
       height: 100vh;
+      .graf-topo {
+        min-height: 590px;
+      }
+      .container-topo {
+        margin: 220px 0 0 120px;
+        width: 40%;
+        h1 {
+          font-size: 50px;
+          line-height: 55px;
+        }        
+      }           
   }
   // topo internas
   .topo-internas{
@@ -184,8 +206,12 @@ Meida Queries  991px
   } 
   .topo-intena{
       height: 100vh;
+      .row{
+        height: 90vh;    
+      }      
   }
-  
+
+
   // topo contato
   .topo-contato{
       height: 100vh;
@@ -213,14 +239,40 @@ Meida Queries  991px
 // 768px
 
 
-// Controle para telas grandes full hd
-@media (min-width: 1470px) {
-  .bg-white, .bg-inverse {
-    background-size: 100% 100%;
-    min-height: 480px;
+
+// Media query para telas de celulares grandes
+@media screen and (max-height: 768px) and (max-width: 820px) {
+  //Topo Home
+  .topo-home {
+      height: 100vh;
+      .container-topo{
+        margin: 115px 40px 0 40px;
+        width: 100%;        
+        h1 {
+          font-size: 25px;
+          line-height: 32px;
+        }
+        p {
+          font-weight: 300;
+          font-size: 17px;
+          line-height: 140.8%;
+        }        
+      }
+      .graf-topo {
+        min-height: 420px;
+      }            
   }
-  .bg-inverse i{
-    background-size: 100% 100%;
-    min-height: 480px; 
-  }  
+  .topo-intena{
+      height: 70vh;
+      .row{
+        height: 45vh;    
+      }        
+  }
+  .topo-contato .graf-topo-internas {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: initial;
+    width: 100%;
+  }      
 }

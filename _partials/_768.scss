@@ -267,15 +267,3 @@ Meida Queries  768px
 }
 // 768px
 
-
-// Media query para telas de celulares grandes
-@media screen and (max-height: 768px) and (max-width: 820px) {
-    //Topo Home
-    .topo-home {
-        height: 100vh;
-    }
-    .topo-intena{
-        height: 70vh;
-    }     
-}
-

@@ -11386,6 +11386,11 @@ p {
   min-height: 600px;
 }
 
+.bg-white .container-fluid, .bg-white .container-sm, .bg-white .container-md, .bg-white .container-lg, .bg-white .container-xl {
+  position: relative;
+  z-index: 5;
+}
+
 .bg-white span {
   font-style: normal;
   font-weight: bold;
@@ -12809,15 +12814,6 @@ Meida Queries  768px
   }
 }
 
-@media screen and (max-height: 768px) and (max-width: 820px) {
-  .topo-home {
-    height: 100vh;
-  }
-  .topo-intena {
-    height: 70vh;
-  }
-}
-
 /*
 =====================================================
 Meida Queries  991px
@@ -12898,11 +12894,11 @@ Meida Queries  991px
     width: 70%;
   }
   .topo-intena {
-    height: 100vh;
+    height: 70vh;
     padding-top: 130px;
   }
   .topo-intena .row {
-    height: 90vh;
+    height: 70vh;
   }
   .topo-intena .graf-topo-internas {
     position: absolute;
@@ -12964,15 +12960,40 @@ Meida Queries  991px
   }
 }
 
+@media (min-width: 1470px) {
+  .bg-white, .bg-inverse {
+    background-size: 100% 100%;
+    min-height: 480px;
+  }
+  .bg-inverse i {
+    background-size: 100% 100%;
+    min-height: 480px;
+  }
+}
+
 @media (max-height: 768px) {
   .topo-home {
     height: 100vh;
+  }
+  .topo-home .graf-topo {
+    min-height: 590px;
+  }
+  .topo-home .container-topo {
+    margin: 220px 0 0 120px;
+    width: 40%;
+  }
+  .topo-home .container-topo h1 {
+    font-size: 50px;
+    line-height: 55px;
   }
   .topo-internas {
     height: 100vh;
   }
   .topo-intena {
     height: 100vh;
+  }
+  .topo-intena .row {
+    height: 90vh;
   }
   .topo-contato {
     height: 100vh;
@@ -12996,14 +13017,38 @@ Meida Queries  991px
   }
 }
 
-@media (min-width: 1470px) {
-  .bg-white, .bg-inverse {
-    background-size: 100% 100%;
-    min-height: 480px;
+@media screen and (max-height: 768px) and (max-width: 820px) {
+  .topo-home {
+    height: 100vh;
   }
-  .bg-inverse i {
-    background-size: 100% 100%;
-    min-height: 480px;
+  .topo-home .container-topo {
+    margin: 115px 40px 0 40px;
+    width: 100%;
+  }
+  .topo-home .container-topo h1 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .topo-home .container-topo p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 140.8%;
+  }
+  .topo-home .graf-topo {
+    min-height: 420px;
+  }
+  .topo-intena {
+    height: 70vh;
+  }
+  .topo-intena .row {
+    height: 45vh;
+  }
+  .topo-contato .graf-topo-internas {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: initial;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
