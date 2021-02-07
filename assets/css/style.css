@@ -11383,7 +11383,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 440px;
+  min-height: 540px;
 }
 
 .bg-white span {
@@ -11427,13 +11427,30 @@ p {
   line-height: 140.8%;
 }
 
+.bg-white i {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 440px;
+  z-index: 1;
+}
+
+.bg-white .bg-pwhite {
+  background-position: bottom right;
+  background-size: 90%;
+}
+
 .bg-inverse {
   background-color: #002037;
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 440px;
+  min-height: 540px;
   z-index: 5;
 }
 
@@ -11496,6 +11513,11 @@ p {
   z-index: 1;
 }
 
+.bg-inverse .bg-inverse {
+  background-position: bottom right;
+  background-size: 90%;
+}
+
 .bg-inverse .filtro--azul {
   background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(97.37%, rgba(0, 32, 55, 0)));
   background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 97.37%);
@@ -11504,11 +11526,12 @@ p {
 }
 
 .box-clientes {
+  position: relative;
   background-color: #FFFFFF;
   background-repeat: no-repeat;
   background-position: top center;
   min-height: 440px;
-  padding: 250px 30px 80px 30px;
+  padding: 170px 30px 80px 30px;
 }
 
 .box-clientes .titulo-destaque {
@@ -11563,6 +11586,17 @@ p {
 .box-clientes .swiper-container .swiper-pagination-bullet {
   width: 14px;
   height: 14px;
+}
+
+.box-clientes i {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 440px;
 }
 
 .clientes-sobre {
@@ -12513,6 +12547,9 @@ Meida Queries  576px
         -ms-flex-align: center;
             align-items: center;
   }
+  .bg-white, .bg-inverse {
+    min-height: 640px;
+  }
 }
 
 /*
@@ -12598,6 +12635,10 @@ Meida Queries  768px
   .bg-white h2, .bg-inverse h2 {
     font-size: 4.5em;
     line-height: 1em;
+  }
+  .bg-inverse i {
+    background-position: center left;
+    min-height: 440px;
   }
   footer .divisor {
     margin-top: 74px;
@@ -12887,11 +12928,22 @@ Meida Queries  991px
   .topo-contato .graf-topo-internas img {
     width: 100%;
   }
+  .box-clientes {
+    min-height: 440px;
+    padding: 250px 30px 80px 30px;
+  }
+  .bg-inverse i {
+    background-position: center;
+    min-height: 440px;
+  }
   .v-mobile {
     display: none;
   }
   .v-desktop {
     display: block;
+  }
+  .bg-white, .bg-inverse {
+    min-height: 440px;
   }
 }
 

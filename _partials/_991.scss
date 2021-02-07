@@ -127,6 +127,18 @@ Meida Queries  991px
         }      
     }
 
+    .box-clientes{
+      min-height: 440px;
+      padding: 250px 30px 80px 30px;      
+    }
+
+    .bg-inverse{
+      i{
+          background-position: center;
+          min-height: 440px;                
+      }
+    }
+
     .v-mobile{
         display: none;
     }
@@ -134,6 +146,9 @@ Meida Queries  991px
         display: block;
     }
 
+    .bg-white, .bg-inverse {
+      min-height: 440px;
+    }    
 
 }
 // 991px
