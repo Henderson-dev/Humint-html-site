@@ -140,7 +140,7 @@ Meida Queries  991px
     }
 
     .v-mobile{
-        display: none;
+        display: none !important;
     }
     .v-desktop{
         display: block;
@@ -148,7 +148,24 @@ Meida Queries  991px
 
     .bg-white, .bg-inverse {
       min-height: 440px;
-    }    
+    }
+
+    .topo-home {
+      .container-topo{
+        margin: 210px 0 0 120px;
+        width: 52%;
+        h1{
+          font-size: 62px;
+          line-height: 62px;
+          margin-bottom: 30px;
+        }
+        p{
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 140.8%;
+        } 
+      }
+    }
 
 }
 // 991px

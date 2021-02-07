@@ -341,7 +341,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 540px;
+  min-height: 600px;
   span{
     font-style: normal;
     font-weight: bold;
@@ -392,7 +392,7 @@ p {
   }
   .bg-pwhite{
     background-position: bottom right;
-    background-size: 90%;
+    background-size: contain;
   }   
 }
 .bg-inverse{
@@ -401,7 +401,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 540px;
+  min-height: 600px;
   z-index: 5; 
   .container-fluid{
     position: relative;
@@ -458,7 +458,7 @@ p {
   }
   .bg-inverse{
     background-position: bottom right;
-    background-size: 90%;    
+    background-size: contain;    
   }
   .filtro--azul{
     background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 97.37%);

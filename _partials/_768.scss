@@ -30,11 +30,11 @@ Meida Queries  768px
 
     .topo-home {
         .container-topo{
-          margin: 210px 0 0 120px;
-          width: 52%;
+          margin: 120px 0 0 120px;
+          width: 80%;
           h1{
-            font-size: 62px;
-            line-height: 62px;
+            font-size: 42px;
+            line-height: 52px;
             margin-bottom: 30px;
           }
           p{
@@ -259,7 +259,9 @@ Meida Queries  768px
         }        
     }
 
-    
+    .none-768{
+        display: none !important;
+    }
     
 
 }
