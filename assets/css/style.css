@@ -11605,7 +11605,7 @@ p {
 }
 
 .clientes-sobre {
-  padding: 60px 30px 60px 30px;
+  padding: 60px 30px 60px 30px !important;
 }
 
 .swiper-container {
@@ -12985,6 +12985,9 @@ Meida Queries  991px
   .topo-home .container-topo h1 {
     font-size: 50px;
     line-height: 55px;
+  }
+  .topo-sobre .graf-topo img {
+    width: 45%;
   }
   .topo-internas {
     height: 100vh;
