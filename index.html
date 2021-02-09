@@ -99,7 +99,8 @@
       </div>
     </div>
     <i style="background-image: url('assets/images/002_grafismo_erp_animated.svg');" class="v-desktop"></i>
-    <i style="background-image: url('assets/images/002_grafismo_erp_mobile_animated.svg');" class="v-mobile bg-pwhite"></i>        
+    <i id="teste" class="v-mobile bg-pwhite"></i>
+    <!-- <i id="teste" style="background-image: url('assets/images/002_grafismo_erp_mobile_animated.svg');" class="v-mobile bg-pwhite"></i>         -->
   </section>
 
   
@@ -381,8 +382,12 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<script src="assets/js/lity.js"></script>
+<script src="assets/js/vivus.min.js"></script>
 <script src="assets/js/scripts.js"></script>
 
+<script>
+  //https://github.com/maxwellito/vivus#vivusjs
+  new Vivus('teste', { type: 'scenario-sync', duration: 200, file: 'assets/images/002_grafismo_erp_mobile_animated.svg' });
+</script>
 </body>
 </html>
