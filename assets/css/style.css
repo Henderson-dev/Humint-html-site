@@ -11274,6 +11274,14 @@ p {
   overflow: hidden;
   width: 100%;
   text-align: right;
+  display: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 32, 55, 0)), color-stop(97.37%, #000000));
+  background: linear-gradient(180deg, rgba(0, 32, 55, 0) 0%, #000000 97.37%);
+  width: 100%;
+}
+
+.graphic-menu img {
+  width: 100%;
 }
 
 .box-inverse {
