@@ -225,7 +225,13 @@ p {
   }
   
 }
-
+.navbar-dark .navbar-nav .nav-link, .main-menu .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+  &:hover{
+    opacity: 0.5;
+    transition: all .2s ease-in-out;
+  }
+}
 
 // Padroes dos boxes
 .box-inverse{
