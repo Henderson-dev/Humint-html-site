@@ -11269,10 +11269,11 @@ p {
 
 .graphic-menu {
   position: absolute;
-  border-bottom: 0;
-  left: 0;
+  bottom: 0;
+  right: 0;
   overflow: hidden;
   width: 100%;
+  text-align: right;
 }
 
 .box-inverse {
@@ -12879,6 +12880,12 @@ Meida Queries  991px
   }
   .main-menu .navbar-nav .separator {
     padding: 0.5rem 1rem;
+  }
+  .scrolled .navbar-brand {
+    padding-left: 20px;
+  }
+  .scrolled .navbar-collapse {
+    padding-right: 20px;
   }
   .card-solucoes h3 {
     font-size: 4rem;

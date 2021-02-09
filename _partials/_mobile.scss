@@ -234,10 +234,12 @@ p {
 }
 .graphic-menu{
   position: absolute;
-  border-bottom: 0;
-  left: 0;
+  bottom: 0;
+  right: 0;
   overflow: hidden;
   width: 100%;
+  text-align: right;
+  //opacity: 0;
 }
 
 // Padroes dos boxes

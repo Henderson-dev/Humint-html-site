@@ -32,6 +32,19 @@ $(document).on("scroll", function () {
 });
 
 
+
+/*-----------------------------------------------------------------------------*/
+/*  Exibir e esconder grafico no menu mobile
+/*-----------------------------------------------------------------------------*/
+$('.hamburger').on('click', function() {
+  $('.graphic-menu').show(400);
+  if ($('.hamburger').attr('aria-expanded') === "true") {
+    $('.graphic-menu').hide(10);
+  }
+});
+
+
+
 // var swiper = new Swiper('.swiper-container', {
 //   navigation: {
 //     nextEl: '.swiper-button-next',
