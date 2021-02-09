@@ -11225,14 +11225,14 @@ p {
     padding-right: 3vw;
   }
   .main-menu .navbar-collapse.show .navbar-nav:nth-child(3) .nav-item:first-child .nav-link {
-    color: #ffffff;
+    color: white;
     padding-top: 4px;
   }
   .main-menu .navbar-collapse.show .navbar-nav:nth-child(3) .nav-item:last-child {
     padding-left: 3vw;
   }
   .main-menu .navbar-collapse.show .navbar-nav:nth-child(3) .nav-item:last-child .nav-link {
-    color: #ffffff;
+    color: white;
     padding-top: 4px;
   }
 }
@@ -11241,7 +11241,7 @@ p {
   position: fixed;
   background-color: #103957;
   top: 0;
-  padding: 5px 35px;
+  padding: 5px 10px 5px 20px;
   z-index: 10;
 }
 
@@ -12837,7 +12837,7 @@ Meida Queries  991px
     margin-bottom: 0;
   }
   .main-menu .navbar-nav .nav-link {
-    color: #fff;
+    color: white;
     border-top: 3px solid transparent;
     padding-left: 0;
     padding-right: 0;
