@@ -79,7 +79,7 @@
       </p>
     </div>
     <div class="graf-topo v-desktop" style="background-image: url('assets/images/000_grafismo_topo_animated.svg');"></div>
-    <div class="graf-topo v-mobile none-768" style="background-image: url('assets/images/000_grafismo_topo_mobile_animated.svg');">      
+    <div class="graf-topo v-mobile none-768" id="graf-hm01">
 </div>
   </section>
 
@@ -99,8 +99,7 @@
       </div>
     </div>
     <i style="background-image: url('assets/images/002_grafismo_erp_animated.svg');" class="v-desktop"></i>
-    <i id="teste" class="v-mobile bg-pwhite"></i>
-    <!-- <i id="teste" style="background-image: url('assets/images/002_grafismo_erp_mobile_animated.svg');" class="v-mobile bg-pwhite"></i>         -->
+    <i id="graf-hm02" class="v-mobile bg-pwhite"></i>
   </section>
 
   
@@ -121,7 +120,7 @@
       </div>
     </div>
     <i style="background-image: url('assets/images/003_grafismo_proheus_animated.svg');" class="v-desktop"></i>
-    <i style="background-image: url('assets/images/003_grafismo_proheus_mobile_animated.svg');" class="v-mobile bg-inverse"></i>
+    <i id="graf-hm03" class="v-mobile bg-inverse"></i>
   </section>  
 
 
@@ -140,7 +139,7 @@
       </div>
     </div>
     <i style="background-image: url('assets/images/004_grafismo_bi_animated.svg');" class="v-desktop"></i>
-    <i style="background-image: url('assets/images/004_grafismo_bi_mobile_animated.svg');" class="v-mobile bg-pwhite"></i>     
+    <i id="graf-hm04" class="v-mobile bg-pwhite"></i>     
   </section>
 
 
@@ -160,7 +159,7 @@
       </div>
     </div>
     <i style="background-image: url('assets/images/005_grafismo_outsourcing_animated.svg');" class="v-desktop"></i>
-    <i style="background-image: url('assets/images/005_grafismo_outsourcing_mobile_animated.svg');" class="v-mobile bg-inverse"></i>      
+    <i id="graf-hm05" class="v-mobile bg-inverse"></i>      
   </section>  
 
 
@@ -179,7 +178,7 @@
       </div>
     </div>
     <i style="background-image: url('assets/images/006_grafismo_mobile_animated.svg');" class="v-desktop"></i>
-    <i style="background-image: url('assets/images/006_grafismo_mobile_mobile_animated.svg');" class="v-mobile bg-pwhite"></i>          
+    <i id="graf-hm06" class="v-mobile bg-pwhite"></i>          
   </section>
 
 
@@ -199,7 +198,7 @@
       </div>
     </div>
     <i style="background-image: url('assets/images/007_grafismo_itegracaoes_animated.svg');" class="v-desktop"></i>
-    <i style="background-image: url('assets/images/007_grafismo_itegracaoes_mobile_animated.svg');" class="v-mobile bg-inverse"></i>     
+    <i id="graf-hm07" class="v-mobile bg-inverse"></i>     
   </section>    
 
 
@@ -387,11 +386,50 @@
 
 <script>
   //https://github.com/maxwellito/vivus#vivusjs
-  new Vivus('teste', { 
-    type: 'delayed', 
-    duration: 80, 
-    file: 'assets/images/002_grafismo_erp_mobile.svg' 
-    });
+    
+  let caminho = "assets/svg/";
+    graf_hm01 = new Vivus('graf-hm01', { 
+      type: 'delayed',
+      duration: 130, 
+      file: caminho + '00_grafismo_topo_mobile.svg' 
+    }),
+    graf_hm02 = new Vivus('graf-hm02', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '002_grafismo_erp_mobile.svg'
+    }),
+    graf_hm03 = new Vivus('graf-hm03', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '003_grafismo_proheus_mobile.svg'
+    }),   
+    graf_hm04 = new Vivus('graf-hm04', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '004_grafismo_bi_mobile.svg'
+    }),
+    graf_hm05 = new Vivus('graf-hm05', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '005_grafismo_outsourcing_mobile.svg'
+    }),
+    graf_hm06 = new Vivus('graf-hm06', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '006_grafismo_mobile_mobile.svg'
+    }),
+    graf_hm07 = new Vivus('graf-hm07', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '007_grafismo_itegracaoes_mobile.svg'
+    });           
+
+    // 
+
+    // obt1 = new Vivus('obturateur1', {type: 'delayed', duration: 150}),
+		// 		obt2 = new Vivus('obturateur2', {type: 'sync', duration: 150}),
+		// 		obt3 = new Vivus('obturateur3', {type: 'oneByOne', duration: 150}),
+		// 		pola = new Vivus('polaroid', {type: 'scenario-sync', duration: 20, forceRender: false});
 </script>
 </body>
 </html>

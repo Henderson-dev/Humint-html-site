@@ -326,10 +326,10 @@ p {
   }
   .graf-topo{
     position: absolute;
-    left: 0;
+    right: 0;
     bottom: 0;
     width: 100%;
-    min-height: 330px;
+    //min-height: 330px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -414,6 +414,9 @@ p {
     background-size: cover;
     min-height: 440px;    
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;    
   }
   .bg-pwhite{
     background-position: bottom right;
@@ -479,7 +482,10 @@ p {
     background-position: center;
     background-size: cover;
     min-height: 440px;    
-    z-index: 1;  
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;       
   }
   .bg-inverse{
     background-position: bottom right;
@@ -1190,5 +1196,5 @@ footer{
   display: block;
 }
 .v-desktop{
-  display: none;
+  display: none !important;
 }

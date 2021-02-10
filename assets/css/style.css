@@ -11370,10 +11370,9 @@ p {
 
 .topo-home .graf-topo {
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 0;
   width: 100%;
-  min-height: 330px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -11469,6 +11468,16 @@ p {
   background-size: cover;
   min-height: 440px;
   z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .bg-white .bg-pwhite {
@@ -11543,6 +11552,16 @@ p {
   background-size: cover;
   min-height: 440px;
   z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .bg-inverse .bg-inverse {
@@ -12558,7 +12577,7 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 }
 
 .v-desktop {
-  display: none;
+  display: none !important;
 }
 
 /*
@@ -13009,7 +13028,7 @@ Meida Queries  991px
     height: 100vh;
   }
   .topo-home .graf-topo {
-    min-height: 590px;
+    height: 50%;
   }
   .topo-home .container-topo {
     margin: 220px 0 0 120px;
@@ -13071,7 +13090,7 @@ Meida Queries  991px
     line-height: 140.8%;
   }
   .topo-home .graf-topo {
-    min-height: 420px;
+    height: 50%;
   }
   .topo-intena {
     height: 70vh;
