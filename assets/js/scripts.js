@@ -113,7 +113,10 @@ var swiper = new Swiper('.swiper-container', {
 
   //https://github.com/maxwellito/vivus#vivusjs
     
+  // determina caminho absoluto dos arquivos svg  
   let caminho = "assets/svg/";
+    
+    // animacoes mobile
     graf_hm01 = new Vivus('graf-hm01', { 
       type: 'delayed',
       duration: 130, 
@@ -153,14 +156,50 @@ var swiper = new Swiper('.swiper-container', {
       type: 'delayed', 
       duration: 100, 
       file: caminho + '008_grafismo_clientes_mobile.svg'
-    });      
-
+    }),
+    // animacoes svg desktop
+    graf_hd01 = new Vivus('graf-hd01', {
+      type: 'delayed', 
+      duration: 120, 
+      file: caminho + '000_grafismo_topo.svg'
+    }),       
+    graf_hd02 = new Vivus('graf-hd02', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '002_grafismo_erp.svg'
+    }), 
+    graf_hd03 = new Vivus('graf-hd03', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '003_grafismo_proheus.svg'
+    }),
+    graf_hd04 = new Vivus('graf-hd04', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '004_grafismo_bi.svg'
+    }),
+    graf_hd05 = new Vivus('graf-hd05', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '005_grafismo_outsourcing.svg'
+    }),
+    graf_hd06 = new Vivus('graf-hd06', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '006_grafismo_mobile.svg'
+    }),
+    graf_hd07 = new Vivus('graf-hd07', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '007_grafismo_itegracaoes.svg'
+    }),
+    graf_hd08 = new Vivus('graf-hd08', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '008_grafismo_clientes.svg'
+    });                            
     //
 
-    
-    // obt1 = new Vivus('obturateur1', {type: 'delayed', duration: 150}),
-		// 		obt2 = new Vivus('obturateur2', {type: 'sync', duration: 150}),
-		// 		obt3 = new Vivus('obturateur3', {type: 'oneByOne', duration: 150}),
-		// 		pola = new Vivus('polaroid', {type: 'scenario-sync', duration: 20, forceRender: false});
+  
 
 })(jQuery);
