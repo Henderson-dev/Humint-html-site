@@ -13005,10 +13005,6 @@ Meida Queries  991px
     min-height: 440px;
     padding: 250px 30px 80px 30px;
   }
-  .bg-inverse i {
-    background-position: center;
-    min-height: 440px;
-  }
   .v-mobile {
     display: none !important;
   }
@@ -13016,10 +13012,15 @@ Meida Queries  991px
     display: block !important;
   }
   .bg-white, .bg-inverse {
-    min-height: 440px;
+    min-height: auto;
   }
   .bg-white i, .bg-inverse i {
     width: 100%;
+    height: 100%;
+    min-height: auto;
+  }
+  .bg-inverse i {
+    background-position: center;
   }
   .topo-home .container-topo {
     margin: 210px 0 0 120px;
@@ -13040,11 +13041,11 @@ Meida Queries  991px
 @media (min-width: 1470px) {
   .bg-white, .bg-inverse {
     background-size: 100% 100%;
-    min-height: 480px;
+    min-height: auto;
   }
   .bg-inverse i {
     background-size: 100% 100%;
-    min-height: 480px;
+    min-height: auto;
   }
 }
 
