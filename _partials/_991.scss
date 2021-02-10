@@ -151,12 +151,16 @@ Meida Queries  991px
         display: none !important;
     }
     .v-desktop{
-        display: block;
+        display: block !important;
     }
 
     .bg-white, .bg-inverse {
       min-height: 440px;
+      i{
+        width: 100%;
+      }      
     }
+
 
     .topo-home {
       .container-topo{

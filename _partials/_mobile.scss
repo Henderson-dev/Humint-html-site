@@ -407,7 +407,7 @@ p {
   i{
     position: absolute;
     width: 100%;
-    left: 0px;
+    right: 0;
     bottom: 0;
     background-repeat: no-repeat;
     background-position: center;
@@ -476,7 +476,7 @@ p {
   i{
     position: absolute;
     width: 100%;
-    left: 0px;
+    right: 0;
     bottom: 0;
     background-repeat: no-repeat;
     background-position: center;
@@ -556,7 +556,11 @@ p {
     @include box-i;
     background-repeat: no-repeat;
     background-position: top center;
-    min-height: 440px;    
+    min-height: 440px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;       
   } 
 }
 

@@ -111,4 +111,56 @@ var swiper = new Swiper('.swiper-container', {
 
 
 
+  //https://github.com/maxwellito/vivus#vivusjs
+    
+  let caminho = "assets/svg/";
+    graf_hm01 = new Vivus('graf-hm01', { 
+      type: 'delayed',
+      duration: 130, 
+      file: caminho + '00_grafismo_topo_mobile.svg' 
+    }),
+    graf_hm02 = new Vivus('graf-hm02', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '002_grafismo_erp_mobile.svg'
+    }),
+    graf_hm03 = new Vivus('graf-hm03', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '003_grafismo_proheus_mobile.svg'
+    }),   
+    graf_hm04 = new Vivus('graf-hm04', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '004_grafismo_bi_mobile.svg'
+    }),
+    graf_hm05 = new Vivus('graf-hm05', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '005_grafismo_outsourcing_mobile.svg'
+    }),
+    graf_hm06 = new Vivus('graf-hm06', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '006_grafismo_mobile_mobile.svg'
+    }),
+    graf_hm07 = new Vivus('graf-hm07', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '007_grafismo_itegracaoes_mobile.svg'
+    }),
+    graf_hm08 = new Vivus('graf-hm08', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '008_grafismo_clientes_mobile.svg'
+    });      
+
+    //
+
+    
+    // obt1 = new Vivus('obturateur1', {type: 'delayed', duration: 150}),
+		// 		obt2 = new Vivus('obturateur2', {type: 'sync', duration: 150}),
+		// 		obt3 = new Vivus('obturateur3', {type: 'oneByOne', duration: 150}),
+		// 		pola = new Vivus('polaroid', {type: 'scenario-sync', duration: 20, forceRender: false});
+
 })(jQuery);

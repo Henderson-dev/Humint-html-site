@@ -29,6 +29,7 @@ Meida Queries  768px
 
 
     .topo-home {
+        overflow: hidden;
         .container-topo{
           margin: 120px 0 0 120px;
           width: 80%;
@@ -46,12 +47,17 @@ Meida Queries  768px
         .graf-topo{
             display: inline-block;
             width: 100%;
-            min-height: 670px;
+            right: -120px;
+            height: 650px;
           }        
     }
 
     .box-clientes{
         padding: 180px 80px 80px 80px;
+        i{
+            width: 60%;
+            left: 20%;
+        }
     }
     .clientes-sobre{
         padding: 80px 80px 80px 80px;
@@ -78,6 +84,9 @@ Meida Queries  768px
         h2{
             font-size: 4.5em;
             line-height: 1em;           
+        }
+        i{
+            width: 70%;
         }
     }
     .bg-inverse{
