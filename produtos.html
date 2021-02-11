@@ -81,10 +81,8 @@
         </div>
         <!-- row -->
     </div>
-    <div class="graf-topo-internas">
-      <img src="assets/images/grafismo_internas_animated.svg" class="v-desktop" alt="">
-      <img src="assets/images/grafismo_interna_mobile.svg" class="v-mobile" alt="">
-    </div>    
+    <div id="graf-single-d" class="graf-topo-internas v-desktop"></div>
+    <div id="graf-single-m" class="graf-topo-internas v-mobile"></div>   
   </section>
 
 
@@ -365,8 +363,25 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<script src="assets/js/lity.js"></script>
+<script src="assets/js/vivus.min.js"></script>
 <script src="assets/js/scripts.js"></script>
+
+<script>
+  // determina caminho absoluto dos arquivos svg  
+  let caminho = "assets/svg/";
+    
+    // animacoes SVG
+    graf_single_m = new Vivus('graf-single-m', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '_grafismo_single_topo_m.svg'
+    }),
+    graf_single_d = new Vivus('graf-single-d', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + '_grafismo_single_topo.svg'
+    });    
+</script>
 
 </body>
 </html>
