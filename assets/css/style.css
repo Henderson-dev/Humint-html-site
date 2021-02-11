@@ -12943,6 +12943,13 @@ Meida Queries  991px
   .card-solucoes p {
     width: 80%;
   }
+  .topo-home .graf-topo {
+    right: 0;
+    height: auto;
+  }
+  .topo-home .graf-topo img {
+    width: 100%;
+  }
   .topo-sobre {
     padding-top: 60px;
   }
@@ -13004,6 +13011,10 @@ Meida Queries  991px
   .box-clientes {
     min-height: 440px;
     padding: 250px 30px 80px 30px;
+  }
+  .box-clientes i {
+    width: 100%;
+    left: 0;
   }
   .v-mobile {
     display: none !important;

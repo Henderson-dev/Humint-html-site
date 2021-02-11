@@ -73,6 +73,16 @@ Meida Queries  991px
       }
     }
 
+    .topo-home {
+      .graf-topo{
+        right: 0;
+        height: auto;
+        img{
+          width: 100%;
+        }
+      } 
+    }
+
     @mixin base-topo{
       .row{
         justify-content: center;
@@ -137,7 +147,11 @@ Meida Queries  991px
 
     .box-clientes{
       min-height: 440px;
-      padding: 250px 30px 80px 30px;      
+      padding: 250px 30px 80px 30px;
+      i{
+        width: 100%;
+        left: 0;            
+      }             
     }
 
     .v-mobile{
