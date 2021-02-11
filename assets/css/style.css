@@ -12074,6 +12074,10 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   width: 100%;
 }
 
+.topo-sobre .graf-topo-mobile svg {
+  width: 85%;
+}
+
 .topo-sobre .filter-bottom {
   position: absolute;
   left: 0;
@@ -12316,6 +12320,10 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 }
 
 .bloco-foto .img-bottom img {
+  width: 75%;
+}
+
+.bloco-foto .img-bottom svg {
   width: 75%;
 }
 

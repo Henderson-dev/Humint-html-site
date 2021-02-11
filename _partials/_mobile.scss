@@ -828,7 +828,10 @@ footer{
     z-index: 5;
     img{
       width: 100%;
-    }    
+    }
+    svg{
+      width: 85%;
+    }   
   }
 
   .filter-bottom{
@@ -1030,6 +1033,9 @@ footer{
     bottom: 0;
     right: 0;
     img{
+      width: 75%;
+    }
+    svg{
       width: 75%;
     }
   }
