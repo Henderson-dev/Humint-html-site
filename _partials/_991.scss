@@ -253,7 +253,6 @@ Meida Queries  991px
   }
   .topo-sobre{
     .graf-topo{
-      right: 0;
       img{
         width: 25%;
       }
@@ -261,6 +260,10 @@ Meida Queries  991px
         width: 25%;
       }
     }
+  }
+
+  .bloco-foto .img-bottom svg {
+    width: 25%;
   }
 
   // topo internas

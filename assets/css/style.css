@@ -13105,13 +13105,13 @@ Meida Queries  991px
     font-size: 50px;
     line-height: 55px;
   }
-  .topo-sobre .graf-topo {
-    right: 0;
-  }
   .topo-sobre .graf-topo img {
     width: 25%;
   }
   .topo-sobre .graf-topo svg {
+    width: 25%;
+  }
+  .bloco-foto .img-bottom svg {
     width: 25%;
   }
   .topo-internas {
