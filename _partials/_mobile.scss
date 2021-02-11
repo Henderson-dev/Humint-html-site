@@ -10,6 +10,9 @@ body{
   font-weight: normal;
   line-height: 140.8%;;
   color: $primary;
+  // largura máxima para telas full HD
+  max-width: 1920px;
+  margin: 0 auto;  
 }
 p,
 h1,
