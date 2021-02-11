@@ -11494,12 +11494,12 @@ p {
   background-position: center;
   background-size: cover;
   min-height: 600px;
-  z-index: 5;
+  z-index: 6;
 }
 
 .bg-inverse .container-fluid, .bg-inverse .container-sm, .bg-inverse .container-md, .bg-inverse .container-lg, .bg-inverse .container-xl {
   position: relative;
-  z-index: 5;
+  z-index: 7;
 }
 
 .bg-inverse span {
@@ -11564,6 +11564,7 @@ p {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  z-index: 5;
 }
 
 .bg-inverse .bg-inverse {
@@ -11576,6 +11577,7 @@ p {
   background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 97.37%);
   -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
           transform: matrix(1, 0, 0, -1, 0, 0);
+  z-index: 4;
 }
 
 .box-clientes {
@@ -13012,7 +13014,7 @@ Meida Queries  991px
   }
   .box-clientes {
     min-height: 440px;
-    padding: 250px 30px 80px 30px;
+    padding: 150px 80px 80px 80px;
   }
   .box-clientes i {
     width: 100%;
