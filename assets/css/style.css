@@ -11995,6 +11995,10 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   width: 100%;
 }
 
+.topo-intena .graf-topo-internas svg {
+  width: 100%;
+}
+
 .topo-sobre {
   height: 110vh;
   padding-top: 130px;
@@ -13032,6 +13036,9 @@ Meida Queries  991px
   .topo-contato .graf-topo-internas img {
     width: 100%;
   }
+  .topo-contato .graf-topo-internas svg {
+    width: 100%;
+  }
   .box-clientes {
     min-height: 440px;
     padding: 150px 80px 80px 80px;
@@ -13138,6 +13145,9 @@ Meida Queries  991px
     width: 100%;
   }
   .topo-contato .graf-topo-internas img {
+    width: 100%;
+  }
+  .topo-contato .graf-topo-internas svg {
     width: 100%;
   }
   .banner {
