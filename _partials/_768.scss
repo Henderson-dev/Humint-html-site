@@ -60,7 +60,7 @@ Meida Queries  768px
         }
     }
     .clientes-sobre{
-        padding: 80px 80px 80px 80px;
+        padding: 80px 80px 80px 80px !important;
     }
     // area clientes
     .container-clientes{
@@ -160,6 +160,9 @@ Meida Queries  768px
           img{
             width: 45%;
           }
+          svg{
+            width: 45%;
+          }
         }  
       }
 
@@ -212,7 +215,12 @@ Meida Queries  768px
         .img-topo-left{
             width: 70%;
             margin-top: -400px;
-        }        
+        }
+        .img-bottom{
+            svg{
+                width: 40%;
+            }
+        }       
     }           
     
     // gap-bloco-foto

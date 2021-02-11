@@ -85,9 +85,7 @@
         </div>
         <!-- row -->
     </div>
-    <div class="graf-topo">
-      <img src="assets/images/grafismo_topo_sobre.svg" alt="">
-    </div>
+    <div id="graf-dabout" class="graf-topo"></div>
     <div id="graf-about" class="graf-topo-mobile">
     </div>
     <i class="filter-bottom"></i>
@@ -340,12 +338,17 @@
       duration: 100, 
       file: caminho + 'grafismo_topo-mobile-sobre.svg'
     }),
+    graf_dsobre = new Vivus('graf-dabout', {
+      type: 'delayed', 
+      duration: 100, 
+      file: caminho + 'grafismo_topo_sobre.svg'
+    }),    
     graf_sobre_bottom = new Vivus('graf-bottom', {
       type: 'delayed', 
       duration: 100, 
       file: caminho + 'grafismo_bottom_sobre.svg'
     });                                 
-    //
+    // 
     
 </script>
 

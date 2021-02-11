@@ -98,6 +98,9 @@ Meida Queries  991px
         img{
           width: 70%;
         }
+        svg{
+          width: 40%;
+        }
       }  
     }    
 
@@ -121,6 +124,9 @@ Meida Queries  991px
           top: 20vh;
           width: 100%;
           img{
+            width: 100%;
+          }
+          svg{
             width: 100%;
           }
         }               
@@ -153,6 +159,15 @@ Meida Queries  991px
         left: 0;            
       }             
     }
+
+    // bloco azul com foto no topo
+    .bloco-foto{
+      .img-bottom{
+        svg{
+            width: 40%;
+        }
+      }       
+    }     
 
     .v-mobile{
         display: none !important;
@@ -204,7 +219,18 @@ Meida Queries  991px
   .bg-inverse i{
     background-size: 100% 100%;
     min-height: auto; 
-  }  
+  }
+
+
+  .topo-sobre{
+    .graf-topo{
+      svg{
+        width: 40%;
+      }
+    } 
+  }
+
+
 }
 
 
@@ -227,8 +253,12 @@ Meida Queries  991px
   }
   .topo-sobre{
     .graf-topo{
+      right: 0;
       img{
-        width: 45%;
+        width: 25%;
+      }
+      svg{
+        width: 25%;
       }
     }
   }

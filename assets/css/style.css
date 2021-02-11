@@ -12684,7 +12684,7 @@ Meida Queries  768px
     left: 20%;
   }
   .clientes-sobre {
-    padding: 80px 80px 80px 80px;
+    padding: 80px 80px 80px 80px !important;
   }
   .container-clientes {
     display: -webkit-box;
@@ -12806,6 +12806,9 @@ Meida Queries  768px
   .topo-sobre .graf-topo img {
     width: 45%;
   }
+  .topo-sobre .graf-topo svg {
+    width: 45%;
+  }
   .topo-sobre .graf-topo-mobile {
     display: none;
   }
@@ -12844,6 +12847,9 @@ Meida Queries  768px
   .bloco-foto .img-topo-left {
     width: 70%;
     margin-top: -400px;
+  }
+  .bloco-foto .img-bottom svg {
+    width: 40%;
   }
   .gap-bloco-foto {
     padding-top: 350px;
@@ -12986,6 +12992,9 @@ Meida Queries  991px
   .topo-sobre .graf-topo img {
     width: 70%;
   }
+  .topo-sobre .graf-topo svg {
+    width: 40%;
+  }
   .topo-intena {
     height: 70vh;
     padding-top: 130px;
@@ -13001,6 +13010,9 @@ Meida Queries  991px
     width: 100%;
   }
   .topo-intena .graf-topo-internas img {
+    width: 100%;
+  }
+  .topo-intena .graf-topo-internas svg {
     width: 100%;
   }
   .topo-contato {
@@ -13027,6 +13039,9 @@ Meida Queries  991px
   .box-clientes i {
     width: 100%;
     left: 0;
+  }
+  .bloco-foto .img-bottom svg {
+    width: 40%;
   }
   .v-mobile {
     display: none !important;
@@ -13070,6 +13085,9 @@ Meida Queries  991px
     background-size: 100% 100%;
     min-height: auto;
   }
+  .topo-sobre .graf-topo svg {
+    width: 40%;
+  }
 }
 
 @media (max-height: 768px) {
@@ -13087,8 +13105,14 @@ Meida Queries  991px
     font-size: 50px;
     line-height: 55px;
   }
+  .topo-sobre .graf-topo {
+    right: 0;
+  }
   .topo-sobre .graf-topo img {
-    width: 45%;
+    width: 25%;
+  }
+  .topo-sobre .graf-topo svg {
+    width: 25%;
   }
   .topo-internas {
     height: 100vh;
