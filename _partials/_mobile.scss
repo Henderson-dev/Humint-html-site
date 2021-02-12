@@ -501,7 +501,8 @@ a{
   .filtro--azul{
     background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 97.37%);
     transform: matrix(1, 0, 0, -1, 0, 0);
-    z-index: 4;    
+    z-index: 4;
+    width: 100%;   
   }
 }
 
@@ -554,6 +555,9 @@ a{
     height: 130%;
     .swiper-slide {
       margin-bottom: 30px;
+      img{
+        width: 100%;
+      }
     }
     .swiper-pagination-bullet {
       width: 14px;

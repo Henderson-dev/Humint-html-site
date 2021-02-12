@@ -154,6 +154,10 @@ Meida Queries  991px
         }      
     }
 
+    .form-contact .form-container {
+      margin-top: 0;
+    }
+
     .box-clientes{
       min-height: 440px;
       padding: 150px 80px 80px 80px;
@@ -174,9 +178,13 @@ Meida Queries  991px
     .bloco-foto{
       .img-bottom{
         svg{
-            width: 40%;
+            width: 30%;
         }
-      }       
+      }
+      .img-topo-left{
+        width: 75%;
+        margin-top: -400px;
+      }            
     }     
 
     .v-mobile{
@@ -353,5 +361,8 @@ Meida Queries  991px
     bottom: 0;
     top: initial;
     width: 100%;
-  }      
+  }
+  .bloco-foto .img-bottom svg {
+    width: 75%;
+  }   
 }
