@@ -11055,6 +11055,10 @@ p {
   font-weight: 300;
 }
 
+a {
+  outline: none;
+}
+
 .btn {
   font-style: normal;
   font-weight: bold;
