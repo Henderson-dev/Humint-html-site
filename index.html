@@ -69,7 +69,7 @@
     
   <section class="topo-home">
     <i></i> 
-    <div class="container-topo">
+    <div class="container-topo" data-aos="fade-up" data-aos-duration="1000">
       <h1>
         Transformação digital<br>
         para sua empresa
@@ -87,7 +87,7 @@
   <section class="solucoes bg-white gap-padrao">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-5 col-lg-5">
+        <div class="col-md-5 col-lg-5" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-center">
           <span>Sistema de Gestão Empresarial</span>
           <h2>ERP</h2>
           <p>
@@ -108,7 +108,7 @@
     <i class="filtro--azul"></i>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-5 col-lg-5 offset-lg-7">
+        <div class="col-md-5 col-lg-5 offset-lg-7" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-center">
           <span>Sistema ERP totvs</span>
           <h2>Especialistas Protheus</h2>
           <p>
@@ -127,7 +127,7 @@
   <section class="solucoes bg-white gap-padrao">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-5 col-lg-5">
+        <div class="col-md-5 col-lg-5" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-center">
           <span>Inteligência de negócio</span>
           <h2>BI & Analytics</h2>
           <p>
@@ -147,7 +147,7 @@
     <i class="filtro--azul"></i>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-5 col-lg-5 offset-lg-7">
+        <div class="col-md-5 col-lg-5 offset-lg-7" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-center">
           <span>Infra estrutura</span>
           <h2>Outsourcing de TI</h2>
           <p>
@@ -166,7 +166,7 @@
   <section class="solucoes bg-white gap-padrao">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-5 col-lg-5">
+        <div class="col-md-5 col-lg-5" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-center">
           <span>Aplicativos corporativos</span>
           <h2>Soluções Mobile</h2>
           <p>
@@ -186,7 +186,7 @@
     <i class="filtro--azul"></i>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-5 col-lg-5 offset-lg-7">
+        <div class="col-md-5 col-lg-5 offset-lg-7" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-center">
           <span>Sisitemas integrados</span>
           <h2>Integrações</h2>
           <p>
@@ -207,7 +207,7 @@
     <i id="graf-hm08" class="v-mobile"></i>   
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="2000">
           <span class="titulo-destaque">nossos resultados</span>
           <h2>Clientes</h2>
           <p>
@@ -380,10 +380,17 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+<script src="assets/js/aos.js"></script>
 <script src="assets/js/vivus.min.js"></script>
 <script src="assets/js/scripts.js"></script>
 
 <script>
+
+
+  AOS.init({
+    // faz as animações acontecerem somente uma vez
+    once: true
+  });
 
   //https://github.com/maxwellito/vivus#vivusjs
     
