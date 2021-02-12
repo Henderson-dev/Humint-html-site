@@ -12705,7 +12705,7 @@ Meida Queries  768px
             justify-content: center;
   }
   .container-clientes .card-cliente {
-    width: 16%;
+    width: 26%;
     margin: 0 20px 20px 20px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12720,7 +12720,7 @@ Meida Queries  768px
     max-height: 120px;
   }
   .container-clientes .card-cliente img {
-    width: 85%;
+    width: 100%;
   }
   .bg-white h2, .bg-inverse h2 {
     font-size: 4.5em;
@@ -13050,6 +13050,9 @@ Meida Queries  991px
   .box-clientes i {
     width: 100%;
     left: 0;
+  }
+  .container-clientes .card-cliente {
+    width: 20%;
   }
   .bloco-foto .img-bottom svg {
     width: 40%;

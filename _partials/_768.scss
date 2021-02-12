@@ -68,15 +68,15 @@ Meida Queries  768px
         flex-wrap: wrap;
         justify-content: center;
         .card-cliente{
-        width: 16%;
-        margin: 0 20px 20px 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        max-height: 120px;
-        img{
-            width: 85%;
-        }
+            width: 26%;
+            margin: 0 20px 20px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-height: 120px;
+            img{
+                width: 100%;
+            }
         }
     }    
 
