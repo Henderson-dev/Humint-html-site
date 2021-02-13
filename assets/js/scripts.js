@@ -45,6 +45,10 @@ $('.hamburger').on('click', function() {
 
 
 
+/*-----------------------------------------------------------------------------*/
+/*  Adiciona slider no box de marca dos clientes
+/*-----------------------------------------------------------------------------*/
+
 // var swiper = new Swiper('.swiper-container', {
 //   navigation: {
 //     nextEl: '.swiper-button-next',
@@ -87,28 +91,16 @@ var swiper = new Swiper('.swiper-container', {
   }  
 });
 
-// var mySwiper = new Swiper('.swiper-container', {
-//   // Optional parameters
-//   direction: 'horizontal',
-//   loop: true,
 
-//   // If we need pagination
-//   pagination: {
-//     el: '.swiper-pagination',
-//   },
 
-//   // Navigation arrows
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
+/*-----------------------------------------------------------------------------*/
+/*  Adiciona Animação no scroll das páginas
+/*-----------------------------------------------------------------------------*/
 
-//   // And if we need scrollbar
-//   scrollbar: {
-//     el: '.swiper-scrollbar',
-//   },
-// });
-
+AOS.init({
+  // faz as animações acontecerem somente uma vez
+  once: true
+});
 
 
 
