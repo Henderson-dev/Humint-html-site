@@ -12289,7 +12289,8 @@ a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 22.5px;
-  padding: 17px 30px 19px;
+  padding: 17px 30px 16px;
+  height: 37px;
 }
 
 .btn:hover {
@@ -12310,7 +12311,7 @@ a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 22.5px;
-  padding: 17px 24px 19px;
+  padding: 17px 24px 16px;
 }
 
 .btn-default {
@@ -13891,7 +13892,8 @@ Meida Queries  768px
   }
   .btn {
     font-size: 1.6em;
-    padding: 17px 30px 16px;
+    padding: 17px 30px 17px;
+    height: 40px;
   }
   article {
     margin-bottom: 60px;
