@@ -13715,6 +13715,11 @@ footer .bloco-rsociais .ico-zap:hover svg path {
   margin-top: 40px;
 }
 
+.form-contact .form-container p {
+  padding: 0;
+  margin: 0;
+}
+
 .form-contact label {
   font-style: normal;
   font-weight: normal;
@@ -13790,11 +13795,11 @@ footer .bloco-rsociais .ico-zap:hover svg path {
 
 .form-contact .upload-btn input[type="file"] {
   cursor: pointer;
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
-  width: 100%;
+  position: relative;
+  left: -18px;
+  top: -12px;
+  width: 95%;
+  height: 45px;
   display: block;
 }
 

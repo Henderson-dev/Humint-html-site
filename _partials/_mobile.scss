@@ -1127,6 +1127,10 @@ footer{
   }
   .form-container{
     margin-top: 40px;
+    p{
+      padding: 0;
+      margin: 0;      
+    }
   }
   label{
     font-style: normal;
@@ -1193,12 +1197,13 @@ footer{
     }
     input[type="file"] {
       cursor: pointer;
-      position: absolute;
-      left: 0;
-      top: 0;
-      opacity: 0;
-      width: 100%;
-      display: block;       
+      position: relative;
+      left: -18px;
+      top: -12px;
+      //opacity: 0;
+      width: 95%;
+      height: 45px;
+      display: block;      
     }
   }
 
