@@ -427,6 +427,10 @@ a{
   .bg-pwhite{
     background-position: bottom right;
     background-size: contain;
+    svg{
+      width: 100%;
+      height: auto;
+    }
   }   
 }
 .bg-inverse{
@@ -498,6 +502,14 @@ a{
     background-position: bottom right;
     background-size: contain;    
   }
+  .bg-pinverse{
+    background-position: bottom right;
+    background-size: contain;
+    svg{
+      width: 100%;
+      height: auto;
+    }
+  }  
   .filtro--azul{
     background: linear-gradient(180deg, #000000 0%, rgba(0, 32, 55, 0) 97.37%);
     transform: matrix(1, 0, 0, -1, 0, 0);
@@ -572,7 +584,8 @@ a{
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;       
+    justify-content: flex-start;
+    top: -18px;     
   } 
 }
 

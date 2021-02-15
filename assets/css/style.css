@@ -12708,6 +12708,11 @@ a {
   background-size: contain;
 }
 
+.bg-white .bg-pwhite svg {
+  width: 100%;
+  height: auto;
+}
+
 .bg-inverse {
   background-color: #002037;
   position: relative;
@@ -12791,6 +12796,16 @@ a {
 .bg-inverse .bg-inverse {
   background-position: bottom right;
   background-size: contain;
+}
+
+.bg-inverse .bg-pinverse {
+  background-position: bottom right;
+  background-size: contain;
+}
+
+.bg-inverse .bg-pinverse svg {
+  width: 100%;
+  height: auto;
 }
 
 .bg-inverse .filtro--azul {
@@ -12889,6 +12904,7 @@ a {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  top: -18px;
 }
 
 .clientes-sobre {
@@ -13854,6 +13870,9 @@ Meida Queries  576px
   .bg-white, .bg-inverse {
     min-height: 680px;
   }
+  .box-clientes i {
+    top: 0;
+  }
 }
 
 /*
@@ -13872,7 +13891,7 @@ Meida Queries  768px
   }
   .btn {
     font-size: 1.6em;
-    padding: 17px 30px 19px;
+    padding: 17px 30px 16px;
   }
   article {
     margin-bottom: 60px;
