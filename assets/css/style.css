@@ -14451,4 +14451,19 @@ Meida Queries  991px
     width: 75%;
   }
 }
+
+.wpcf7-not-valid-tip {
+  color: #dc3232;
+  font-size: 0.7em;
+  font-weight: normal;
+  display: block;
+  margin-top: -28px;
+}
+
+.wpcf7 form .wpcf7-response-output {
+  margin: 2em 0.5em 1em;
+  padding: 0.8em 1em;
+  font-size: 1.3em;
+  border-color: #ffb900;
+}
 /*# sourceMappingURL=style.css.map */
