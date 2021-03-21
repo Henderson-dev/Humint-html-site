@@ -1,3 +1,18 @@
+// topo blog
+.topo-blog{
+  .topo-fundo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/default-top-blog-humint.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: luminosity;
+  }
+  margin-bottom: 20px;
+}
 
 // box blog
 .box-blog{
@@ -11,7 +26,6 @@
       font-size: 20px;
       line-height: 24px;
       color: #000000;
-      margin-bottom: 15px;
   }
   .post-time{
       font-family: $font-titles;
@@ -45,12 +59,13 @@
   }
   i{
       position: relative;
-      background-color: #000;
+      background-color: #103957;
       width: 100%;
       height: auto;
       display: block;
       img{
           width: 100%;
+          mix-blend-mode: screen;
       }      
   }
   a{
@@ -71,12 +86,21 @@
       flex-direction: column;                    
       padding: 30px 30px 40px 0; 
   }
+  .box-cat{
+    display: flex;
+    flex-direction: column;
+    padding: 13px 0 10px 13px;
+    border-left: 3px solid #0088FF;
+  }
   .box-list-blog{
       display: flex;
       flex-direction: column;
       .box-6{
           width: 100%;
       }
+      .box-4{
+        width: 100%;
+      }      
       .blog-img-left{
           position: relative;
           padding-right: 0;
@@ -86,9 +110,10 @@
               i{
                   position: relative;
                   margin-bottom: 40px;
-                  background-color: #000;
+                  background-color: #103957;
                   img{
                       width: 100%;
+                      mix-blend-mode: screen;
                   }
               }
               .box-info-blog{
@@ -115,20 +140,22 @@
               flex-direction: column;
               img{
                   width: 100%;
+                  mix-blend-mode: screen;
               }
               .box-black{
-                  background-color: #000;
+                  background-color: #103957;
                   width: 100%;
                   position: relative;
-                  margin-bottom: 40px;
+                  margin-bottom: 20px;
                   i{
                       width: 100%;
                       height: 100%;
                       position: relative;
                       display: block;
                       padding-top: 100%;
-                      background-color: #000;
-                      background-size: cover;                  
+                      background-color: #103957;
+                      background-size: cover;
+                      mix-blend-mode: screen;                
                   }                                                          
               }
 
@@ -158,7 +185,10 @@
               i{
                   position: relative;
                   margin-bottom: 40px;
-                  background-color: #000;                    
+                  background-color: #103957;
+                  img{
+                    mix-blend-mode: screen;
+                  }                  
               }
               .box-info-blog{
                   display: flex;
@@ -224,8 +254,11 @@ Meida Queries  576px
       .box-list-blog{
           flex-direction: row;
           .box-6{
-              width: 50%;
+              width: 60%;
           }
+          .box-4{
+            width: 40%;
+          }            
           .blog-img-left{
               padding-right: 20px;
           }
@@ -295,8 +328,11 @@ Meida Queries  991px
       .box-list-blog{
           flex-direction: row;
           .box-6{
-              width: 50%;
+            width: 60%;
           }
+          .box-4{
+            width: 40%;
+          }   
           .blog-img-left{
               padding-right: 20px;
           }
