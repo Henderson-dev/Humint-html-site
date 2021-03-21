@@ -18,42 +18,56 @@
 .box-blog{
   padding: 0 0 120px;
   h2{
-      margin-bottom: 40px;
+      margin-bottom: 40px;     
+  }
+  .box-cat{
+    display: flex;
+    flex-direction: column;
+    padding: 13px 0 10px 13px;
+    border-left: 5px solid #0088FF;
+    margin-bottom: 17px;
   }
   .cat-name{
-      font-style: normal;
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 24px;
-      color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #0088FF;
   }
   .post-time{
       font-family: $font-titles;
       font-style: normal;
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 20px;
-      color: #000000;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 14px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #999999;
       margin-bottom: 5px;
   }
   h3{
       font-family: $font-titles;
       font-style: normal;
-      font-weight: 300;
-      font-size: 24px;
-      line-height: 30px;
-      color: #000000;
+      font-weight: normal;
+      font-size: 28px;
+      line-height: 35px;
+      letter-spacing: -0.02em;
+      color: #103957; 
   }
   .post-saiba-mais{
       position: relative;
       font-style: normal;
       font-weight: bold;
-      font-size: 14px;
-      line-height: 17px;
+      font-size: 12px;
+      line-height: 12px;
       text-align: left;
       letter-spacing: 0.115em;
       text-transform: uppercase;
-      color: #000000;
+      color: #103957;
       margin-top: 20px;
       width: max-content;     
   }
@@ -85,12 +99,6 @@
       display: flex;
       flex-direction: column;                    
       padding: 30px 30px 40px 0; 
-  }
-  .box-cat{
-    display: flex;
-    flex-direction: column;
-    padding: 13px 0 10px 13px;
-    border-left: 3px solid #0088FF;
   }
   .box-list-blog{
       display: flex;
@@ -211,7 +219,7 @@
   }
   /*Paginacao*/
   .bloco-paginacao{
-      margin: 40px 0 0;
+      margin: 70px 0 0;
   }
   .pagination-news {
       margin-top: 0;
@@ -232,12 +240,12 @@
       transition: all .5s;
   }
   .page-numbers:hover {
-      background-color: $amarelo;
+      background-color: #0088FF;
       color: #fff;
       text-decoration: none;
   }
   .current {
-      background-color: $amarelo;
+      background-color: #0088FF;
       color: #fff;
   }
 }
