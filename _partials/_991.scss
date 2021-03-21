@@ -321,38 +321,7 @@ Meida Queries  991px
     .banner {
       min-height: 45vh;
     }
-    // box blog 
-    .box-blog{
-      .box-list-blog{
-          flex-direction: row;
-          .box-6{
-              width: 50%;
-          }
-          .blog-img-left{
-              padding-right: 20px;
-          }
-          a{
-              .box-info-blog{                   
-                  padding: 0 30px 0 40px;
-              }                
-          }
-          .blog-img-right-top{
-              a{
-                  flex-direction: row;
-                  .box-info-blog{
-                      padding: 0 20px;
-                  }                    
-              }
-          }
-          .blog-img-right-bottom{
-              a{
-                  .box-info-blog{
-                      padding: 0 40px 60px 0;
-                  } 
-              }
-          }                               
-      }
-  }        
+        
 }
 // 768px
 

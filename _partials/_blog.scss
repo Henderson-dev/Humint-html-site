@@ -41,18 +41,7 @@
       text-transform: uppercase;
       color: #000000;
       margin-top: 20px;
-      width: max-content;
-      &::after{
-          content: '';
-          display: block;
-          position: absolute;
-          top: 5px;
-          right: -12px;
-          background-image: url('../images/arrow-see-more.svg');
-          background-repeat: no-repeat;
-          width: 10px;
-          height: 10px;
-      }      
+      width: max-content;     
   }
   i{
       position: relative;
@@ -101,17 +90,6 @@
                   img{
                       width: 100%;
                   }
-                  &::after{
-                      content: '';
-                      display: block;
-                      position: absolute;
-                      left: 0;
-                      bottom: -16px;
-                      height: 16px;
-                      width: 60%;
-                      background-color: #BC8B2F;
-                      z-index: 10;                        
-                  }
               }
               .box-info-blog{
                   display: flex;
@@ -151,17 +129,6 @@
                       padding-top: 100%;
                       background-color: #000;
                       background-size: cover;                  
-                  }
-                  &::after{
-                      content: '';
-                      display: block;
-                      position: absolute;
-                      left: 0;
-                      bottom: -16px;
-                      height: 16px;
-                      width: 100%;
-                      background-color: #BC8B2F;
-                      z-index: 10;                        
                   }                                                          
               }
 
@@ -191,18 +158,7 @@
               i{
                   position: relative;
                   margin-bottom: 40px;
-                  background-color: #000;
-                  &::after{
-                      content: '';
-                      display: block;
-                      position: absolute;
-                      right: 0;
-                      bottom: -16px;
-                      height: 16px;
-                      width: 70%;
-                      background-color: #BC8B2F;
-                      z-index: 10;                        
-                  }                     
+                  background-color: #000;                    
               }
               .box-info-blog{
                   display: flex;
