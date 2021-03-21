@@ -66,7 +66,7 @@
 <main role="main">
 
 
-  <section class="topo-intena topo-contato gap-padrao box-inverse">
+  <section class="topo-intena gap-padrao box-inverse">
     <i></i>
     <div class="container-fluid">
         <div class="row">
@@ -80,14 +80,6 @@
         </div>
         <!-- row -->
     </div>
-    <div id="graf-single-d" class="graf-topo-internas v-desktop"></div>
-    <div id="graf-single-m" class="graf-topo-internas v-mobile"></div> 
-  </section>
-
-
-  <!-- Banner -->
-  <section class="banner img-contato" style="background-image: url('assets/images/foto_top_contato.jpg');">
-    <i></i>
   </section>
 
 
@@ -144,7 +136,7 @@
       </div>
   </div>
 
-  <div class="container-fluid">
+  <div class="container">
       <div class="row">
 
           <div class="col-md-6 mt-md-4 pt-md-4">
@@ -363,25 +355,6 @@
 <script src="assets/js/aos.js"></script>
 <script src="assets/js/vivus.min.js"></script>
 <script src="assets/js/scripts.js"></script>
-
-<script>
-  // determina caminho absoluto dos arquivos svg  
-  let caminho = "assets/svg/";
-    
-    // animacoes SVG
-    graf_single_m = new Vivus('graf-single-m', {
-      type: 'delayed', 
-      duration: 100, 
-      file: caminho + '_grafismo_single_topo_m.svg'
-    }),
-    graf_single_d = new Vivus('graf-single-d', {
-      type: 'delayed', 
-      duration: 100, 
-      file: caminho + '_grafismo_single_topo.svg'
-    });
-    
-
-</script>
 
 
 </body>
