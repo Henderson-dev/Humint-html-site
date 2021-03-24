@@ -510,6 +510,48 @@
   }
 }
 
+.box-compartilhe{
+    display: flex;
+    flex-direction: row;
+    margin-top: 84px;
+    h3{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 60px;
+        color: #999999;
+        margin-right: 40px;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        li{
+            margin-right: 20px;
+        }        
+    }
+}
+// Veja tambem
+.single-veja{
+    h2{
+        font-family: $font-titles;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #103957;
+        &:before{
+            content: '';
+            display: block;
+            width: 72px;
+            height: 3px;
+            background: #0088FF;
+            margin: 0 auto 15px auto;
+        }      
+    }
+}
+
 /*
 =====================================================
 Meida Queries  576px
