@@ -518,15 +518,24 @@
         font-style: normal;
         font-weight: normal;
         font-size: 23px;
-        line-height: 60px;
+        line-height: normal;
         color: #999999;
-        margin-right: 40px;
+        margin-right: 20px;
     }
     ul{
         display: flex;
         flex-direction: row;
+        align-items: center;
+        height: 26px;
+        list-style: none;        
         li{
             margin-right: 20px;
+            a{
+                &:hover{
+                    transition: all .2s ease;
+                    opacity: 0.6;
+                }
+            }
         }        
     }
 }
