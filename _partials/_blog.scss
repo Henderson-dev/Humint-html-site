@@ -49,27 +49,28 @@
 
 // box blog
 .box-blog{
-  padding: 0 0 40px;
-  h2{
-      margin-bottom: 40px;     
-  }
-  .box-cat{
-    display: flex;
-    flex-direction: column;
-    padding: 13px 0 10px 13px;
-    border-left: 5px solid #0088FF;
-    margin-bottom: 17px;
-  }
-  .cat-name{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 19px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    color: #0088FF;
-  }
+    padding: 0 0 40px;
+    h2{
+        margin-bottom: 40px;     
+    }
+    .box-cat{
+        display: flex;
+        flex-direction: column;
+        padding: 13px 0 10px 13px;
+        border-left: 5px solid #0088FF;
+        margin-bottom: 17px;
+
+    }
+    .cat-name{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        color: #0088FF;
+    }
   .post-time{
       font-family: $font-titles;
       font-style: normal;
@@ -318,6 +319,16 @@
     padding: 13px 0 10px 13px;
     border-left: 5px solid #0088FF;
     margin-bottom: 17px;
+    a:hover{
+        text-decoration: none;
+        transition: all .2s ease-in-out;
+        margin-left: 5px;
+    }
+    a:hover .cat-name{
+        transition: all .2s ease-in-out;
+        color: #103957;
+        text-decoration: none;
+    }     
   }
   .cat-name{
     font-style: normal;
@@ -622,7 +633,7 @@ Meida Queries  991px
 @media (min-width: 991px) {
     // topo blog
     .topo-blog{
-        padding: 0 0 120px;
+        padding: 0 80px 120px 80px;
         .topo-fundo{
             background-position: center;
         }
