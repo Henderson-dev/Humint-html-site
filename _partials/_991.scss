@@ -321,6 +321,18 @@ Meida Queries  991px
     .banner {
       min-height: 45vh;
     }
+
+    // Footer
+    footer{      
+      .navbar-footer{
+          li{
+              a{
+                font-size: 1.4rem;
+                line-height: 1.7rem;
+              }              
+          }            
+      }
+    }    
         
 }
 // 768px
