@@ -7,6 +7,11 @@ Link para visualização em vídeo: https://youtu.be/7ea_kkNWC44
 
 Desenvolvimento do Design, Front end e Back end do projeto.
 
+### Para instalação das dependências do projeto
+~~~
+npm install
+~~~
+
 ### Print desktop version
 ![Print desktop version](tela-humint-desktop.png)
 
