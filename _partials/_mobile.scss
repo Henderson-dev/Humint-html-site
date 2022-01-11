@@ -12,7 +12,8 @@ body{
   color: $primary;
   // largura máxima para telas full HD
   max-width: 1920px;
-  margin: 0 auto;  
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 p,
 h1,
